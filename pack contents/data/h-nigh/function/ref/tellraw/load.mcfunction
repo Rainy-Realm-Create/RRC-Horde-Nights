@@ -3,4 +3,4 @@
 #==Liscense for use per Modrinth TOS==#
 #================NOTE=================#
 
-tellraw @a {"text":"Horde Nights v1.3.3 by Rainy Realm Create - Successfully loaded","color":"dark_red"}
+tellraw @a {"text":"Horde Nights v1.3.4 RC1 by Rainy Realm Create - Successfully loaded","color":"dark_red"}
