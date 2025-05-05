@@ -13,7 +13,7 @@ We have also added 7+ advancements on our own, plus 3+ Super Challenge(s) when p
 
 ## Support:
 
-For questions, bug reports, suggestions, and any other support, check out our [Discord Server](https://discord.gg/XHbR7pSwdW)! Make sure to use the Support forum channel!
+For questions and any other support, check out our [Discord Server](https://discord.gg/XHbR7pSwdW)! Make sure to use the Support forum channel!
 You might also get some sneak peaks of upcoming updates!
 
 ## Configuration
