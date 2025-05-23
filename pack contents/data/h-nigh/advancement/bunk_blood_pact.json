@@ -32,7 +32,7 @@
   },
   "parent": "rrc:h-nigh",
   "criteria": {
-    "Coward": {
+    "h-nigh:bunk_blood_pact": {
       "trigger": "minecraft:impossible"
     }
   }

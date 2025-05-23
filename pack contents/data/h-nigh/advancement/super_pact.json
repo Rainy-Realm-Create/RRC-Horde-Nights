@@ -3,12 +3,12 @@
     "icon": {
       "id": "minecraft:redstone",
       "components": {
-        "minecraft:custom_model_data": 6548002
+        "minecraft:custom_model_data": 6548003
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.blood_pact.title",
-      "fallback": "The Strongest Pact",
+      "translate": "rrc.h-nigh.advancement.super_pact.title",
+      "fallback": "An Unbinding Pact",
       "color": "dark_red",
       "bold": true,
       "italic": true,
@@ -17,8 +17,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.blood_pact.description",
-      "fallback": "Participate in a Blood Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.super_pact.description",
+      "fallback": "Participate in a Haunted Ritual activation.",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -30,9 +30,9 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "h-nigh:bunk_blood_pact",
+  "parent": "h-nigh:blood_pact",
   "criteria": {
-    "h-nigh:blood_pact": {
+    "h-nigh:super_pact": {
       "trigger": "minecraft:impossible"
     }
   }
