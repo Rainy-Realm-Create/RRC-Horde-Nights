@@ -10,15 +10,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 6548009,
-                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.properly_infused_diamond.name\",\"fallback\":\"Properly Infused Diamond\",\"bold\":true,\"italic\":false,\"color\":\"black\"}",
+                "minecraft:custom_model_data": 6548007,
+                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.bunk_haunted_diamond.name\",\"fallback\":\"Bunk Haunted Diamond\",\"bold\":true,\"italic\":false,\"color\":\"gray\"}",
                 "minecraft:lore": [
-                  "{\"translate\":\"rrc.ref.item.crafting.sacrifice_ingredient\",\"fallback\":\"Sacrificial Crafting Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"translate\":\"rrc.ref.item.crafting.failed.bunk.ritual\",\"fallback\":\"Bunk Ritual Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
                   "{\"text\":\" \"}",
                   "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"bold\":true,\"italic\":true,\"color\":\"#BA0000\"}"
                 ],
                 "minecraft:custom_data": {
-                  "h-nigh:properly_infused_diamond": true
+                  "h-nigh:bunk_blood_diamond": true
                 }
               }
             }

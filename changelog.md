@@ -21,8 +21,6 @@ Experimental Features **DO NOT**:
 - Ritual V3
   - Complete re-write again.
   - Fix several obscure bugs.
-  - Added compatability with a currently unreleased mod.
-    - If you use a mod that adds "Blood Diamonds", please let us know so we can decide if we support their recipe/item.
   - You now get an error message when dropping more than one item at once.
   - You can now summon a super moon via a new ritual path known as haunting.
     - No further details will be provided, this new path makes use of existing required materials.
@@ -39,6 +37,8 @@ Experimental Features **DO NOT**:
 - Fixed a bunch of random potential visual bugs with the Blood Ritual.
 - Fixed outdated & conflicting advancement criteria.
   - This may result in these advancements being marked as uncomplete.
+- Fixed some mechanics bugging in some multiplayer cases.
+- Fixed dying during one night blocking you from any more.
 
 ### Known Issues
 

@@ -60,3 +60,6 @@ execute if score #active h-nigh.status matches 5 run function h-nigh:ref/tick/fi
 execute unless score #active h-nigh.status matches 2.. as @e[tag=h-nigh.eligible,tag=!h-nigh.ignore] run tag @s add h-nigh.ignore
 execute unless score #active h-nigh.status matches 2.. as @e[tag=h-nigh.mob] at @s run tp @s ~ ~-1000 ~
 execute unless score #active h-nigh.status matches 2.. as @e[type=#h-nigh:recruited,tag=!h-nigh.ignore] run tag @s add h-nigh.ignore
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.time_since_slay 0
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.alive 0
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.deaths 0

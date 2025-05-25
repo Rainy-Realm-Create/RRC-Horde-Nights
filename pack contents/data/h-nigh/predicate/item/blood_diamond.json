@@ -15,17 +15,6 @@
           }
         }
       }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "slots": {
-          "contents": {
-            "items": "shadowsteel:blood_diamond"
-          }
-        }
-      }
     }
   ]
 }
