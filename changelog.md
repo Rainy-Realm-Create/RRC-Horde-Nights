@@ -21,11 +21,17 @@ Experimental Features **DO NOT**:
 - Ritual V3
   - Complete re-write again.
   - Fix several obscure bugs.
-  - You now get an error message when dropping more than one item at once.
-  - You can now summon a super moon via a new ritual path known as haunting.
-    - No further details will be provided, this new path makes use of existing required materials.
   - The new config options added a couple updates ago now work as intended.
-  - Error message for when a lunar event is already active or pending is now more clear.
+  - Advancement Overhaul
+    - Now has advancement for ritual preparation steps.
+    - Advancement tree makes more sense progression wise.
+    - Due to this overhaul, ritual advancements may have been reset for existing worlds.
+  - Added New Ritual Paths for more control over summoning lunar events
+    - Haunting/Infusion for a guarenteed Super Moon.
+  - Error Messages
+    - Messages are now more consistent.
+    - The message for when a lunar event is already incoming is now more clear.
+    - New error message for overloading your ritual space with more than one item.
 - Zombie Reinforcement chance has been reduced by half again. (25% for blood events, 50% for super events)
   - This is due to the insane lag caused on multiplayer servers. Further optimizations will be included in future updates.
 

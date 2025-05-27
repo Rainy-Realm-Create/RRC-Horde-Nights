@@ -5,14 +5,14 @@
       "components": {
         "minecraft:custom_model_data": {
           "floats": [
-            6548003
+            6548002
           ]
         }
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.bunk_blood_pact.title",
-      "fallback": "The Weakest Pact",
+      "translate": "rrc.h-nigh.advancement.ritual.blood_pact.title",
+      "fallback": "The Strongest Pact",
       "color": "dark_red",
       "bold": true,
       "italic": true,
@@ -21,8 +21,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.bunk_blood_pact.description",
-      "fallback": "Participate in a Bunk Blood Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.ritual.blood_pact.description",
+      "fallback": "Participate in a Blood Ritual activation.",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -34,9 +34,9 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "rrc:h-nigh",
+  "parent": "h-nigh:ritual/great_scorch",
   "criteria": {
-    "Coward": {
+    "h-nigh:blood_pact": {
       "trigger": "minecraft:impossible"
     }
   }

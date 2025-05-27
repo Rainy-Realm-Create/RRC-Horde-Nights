@@ -1,15 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:redstone",
+      "id": "minecraft:echo_shard",
       "components": {
-        "minecraft:custom_model_data": 6548003
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548001
+          ]
+        }
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.bunk_blood_pact.title",
-      "fallback": "The Weakest Pact",
-      "color": "dark_red",
+      "translate": "rrc.h-nigh.advancement.ritual.weaker_pact.title",
+      "fallback": "A Weaker Pact",
+      "color": "red",
       "bold": true,
       "italic": true,
       "underlined": false,
@@ -17,8 +21,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.bunk_blood_pact.description",
-      "fallback": "Participate in a Bunk Blood Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.ritual.weaker_pact.description",
+      "fallback": "Participate in a Bunk Haunted Ritual activation.",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -30,9 +34,9 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "rrc:h-nigh",
+  "parent": "h-nigh:ritual/low_quality_haunting",
   "criteria": {
-    "h-nigh:bunk_blood_pact": {
+    "h-nigh:weaker_pact": {
       "trigger": "minecraft:impossible"
     }
   }

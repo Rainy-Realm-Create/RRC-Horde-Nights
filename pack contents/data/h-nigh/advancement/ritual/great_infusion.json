@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:redstone",
+      "id": "minecraft:diamond",
       "components": {
-        "minecraft:custom_model_data": 6548003
+        "minecraft:custom_model_data": 6548009
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.super_pact.title",
-      "fallback": "An Unbinding Pact",
-      "color": "dark_red",
+      "translate": "rrc.h-nigh.advancement.ritual.great_infusion.title",
+      "fallback": "Great Scorch!",
+      "color": "dark_gray",
       "bold": true,
       "italic": true,
       "underlined": false,
@@ -17,8 +17,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.super_pact.description",
-      "fallback": "Participate in a Haunted Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.ritual.great_infusion.description",
+      "fallback": "Infuse a Primed Diamond on a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -30,9 +30,9 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "h-nigh:blood_pact",
+  "parent": "h-nigh:ritual/prime",
   "criteria": {
-    "h-nigh:super_pact": {
+    "h-nigh:great_infusion": {
       "trigger": "minecraft:impossible"
     }
   }

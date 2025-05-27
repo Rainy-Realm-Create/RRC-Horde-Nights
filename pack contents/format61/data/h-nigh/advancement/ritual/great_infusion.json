@@ -1,19 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:redstone",
+      "id": "minecraft:diamond",
       "components": {
         "minecraft:custom_model_data": {
           "floats": [
-            6548002
+            6548009
           ]
         }
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.blood_pact.title",
-      "fallback": "The Strongest Pact",
-      "color": "dark_red",
+      "translate": "rrc.h-nigh.advancement.ritual.great_infusion.title",
+      "fallback": "Great Scorch!",
+      "color": "dark_gray",
       "bold": true,
       "italic": true,
       "underlined": false,
@@ -21,8 +21,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.blood_pact.description",
-      "fallback": "Participate in a Blood Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.ritual.great_infusion.description",
+      "fallback": "Infuse a Primed Diamond on a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -34,9 +34,9 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "h-nigh:bunk_blood_pact",
+  "parent": "h-nigh:ritual/prime",
   "criteria": {
-    "Coward": {
+    "h-nigh:great_infusion": {
       "trigger": "minecraft:impossible"
     }
   }
