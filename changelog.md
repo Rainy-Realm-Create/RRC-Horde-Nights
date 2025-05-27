@@ -39,10 +39,12 @@ Experimental Features **DO NOT**:
   - This may result in these advancements being marked as uncomplete.
 - Fixed some mechanics bugging in some multiplayer cases.
 - Fixed dying during one night blocking you from any more.
+- Remove "modded" code for "Creeper Overhaul" in 1.21.2+(no mod support for these versions).
+- Fix "Creeper Overhaul" integration for Bunk Blood Moons & Super Moons.
 
 ### Known Issues
 
-- 
+- Every horde mob except slimes do not drop items.
 
 ## Datapack Conventions Compliance
 

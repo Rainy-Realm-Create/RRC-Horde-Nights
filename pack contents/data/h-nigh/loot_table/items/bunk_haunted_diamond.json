@@ -18,7 +18,7 @@
                   "{\"translate\":\"rrc.generic.identifier.h-nigh.title\",\"fallback\":\"Horde Nights\",\"bold\":true,\"italic\":true,\"color\":\"#BA0000\"}"
                 ],
                 "minecraft:custom_data": {
-                  "h-nigh:bunk_blood_diamond": true
+                  "h-nigh:bunk_haunted_diamond": true
                 }
               }
             }
