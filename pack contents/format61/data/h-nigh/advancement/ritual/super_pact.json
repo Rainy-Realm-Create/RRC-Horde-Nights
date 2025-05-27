@@ -13,7 +13,7 @@
     "title": {
       "translate": "rrc.h-nigh.advancement.super_pact.title",
       "fallback": "An Unbinding Pact",
-      "color": "dark_red",
+      "color": "black",
       "bold": true,
       "italic": true,
       "underlined": false,

@@ -34,7 +34,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "rrc:h-nigh",
+  "parent": "h-nigh:ritual/bad_burn",
   "criteria": {
     "h-nigh:low_quality_infusion": {
       "trigger": "minecraft:impossible"

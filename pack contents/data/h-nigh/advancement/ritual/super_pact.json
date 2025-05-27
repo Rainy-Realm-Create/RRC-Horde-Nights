@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:redstone",
+      "id": "minecraft:echo_shard",
       "components": {
-        "minecraft:custom_model_data": 6548003
+        "minecraft:custom_model_data": 6548002
       }
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.super_pact.title",
       "fallback": "An Unbinding Pact",
-      "color": "dark_red",
+      "color": "black",
       "bold": true,
       "italic": true,
       "underlined": false,

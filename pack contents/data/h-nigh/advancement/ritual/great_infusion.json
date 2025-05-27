@@ -8,7 +8,7 @@
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.ritual.great_infusion.title",
-      "fallback": "Great Scorch!",
+      "fallback": "Great Infusion!",
       "color": "dark_gray",
       "bold": true,
       "italic": true,
