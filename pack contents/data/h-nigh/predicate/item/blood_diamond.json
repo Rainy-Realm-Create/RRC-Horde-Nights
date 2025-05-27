@@ -9,7 +9,7 @@
           "contents": {
             "predicates": {
               "minecraft:custom_data": {
-                "h-nigh:haunted_diamond": true
+                "h-nigh:blood_diamond": true
               }
             }
           }
