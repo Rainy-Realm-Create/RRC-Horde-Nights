@@ -1,7 +1,7 @@
 {
   "schemaVersion":1,
   "id":"rrc_horde_nights",
-  "version":"1.3.3",
+  "version":"1.3.4",
   "name":"Horde Nights",
   "description":"This adds Lunar Events every 30-45 days, some making mobs a lot more powerful, others remarkably tame. \nCan you survive them all?",
   "authors": [
@@ -15,14 +15,6 @@
   "icon":"pack.png",
   "environment":"*",
   "depends": {
-    "fabric-resource-loader-v0":"*",
-    "minecraft": [
-      "1.21",
-      "1.21.1",
-      "1.21.2",
-      "1.21.3",
-      "1.21.4",
-      "1.21.5"
-    ]
+    "fabric-resource-loader-v0":"*"
   }
 }

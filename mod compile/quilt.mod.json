@@ -3,7 +3,7 @@
   "quilt_loader": {
     "group":"org.rrc",
     "id":"rrc_horde_nights",
-    "version":"1.3.3",
+    "version":"1.3.4",
     "metadata": {
       "name":"Horde Nights",
       "description":"This adds Lunar Events every 30-45 days, some making mobs a lot more powerful, others remarkably tame. \nCan you survive them all?",
