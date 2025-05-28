@@ -30,7 +30,6 @@ function h-nigh:ref/tick/events/bunk_blood_moon/horde_mobs/skeletons
 function h-nigh:ref/tick/events/bunk_blood_moon/horde_mobs/spiders
 
 # Modded Creeper Overhauls
-function h-nigh:ref/tick/events/bunk_blood_moon/horde_mobs/modded/creeper_overhaul
 
 
 #=======Creeper======#

@@ -5,6 +5,8 @@
 
 execute if score super_moon h-nigh.config matches 1 run return 0
 
+execute if score #bunk_events h-nigh.lunar_event_decide matches 3 run return 100
+
 execute if score #bloods_since_last h-nigh.super_moon matches 0..9 run return 0
 execute if score #bloods_since_last h-nigh.super_moon matches 10..19 run return 10
 execute if score #bloods_since_last h-nigh.super_moon matches 20..29 run return 20

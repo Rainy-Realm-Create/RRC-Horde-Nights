@@ -6,7 +6,7 @@
 #========All========#
 #==Generic==#
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.2 add_multiplied_base
 
 #====Easy===#
@@ -41,7 +41,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombifie
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.13
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.1 add_multiplied_base
 
 #====Easy===#

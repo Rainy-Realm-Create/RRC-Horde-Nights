@@ -32,7 +32,7 @@
   },
   "parent": "rrc:h-nigh",
   "criteria": {
-    "Coward": {
+    "h-nigh:coward": {
       "trigger": "minecraft:impossible"
     }
   }

@@ -18,7 +18,7 @@ execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:
 # normal strength normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base#
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
 # hard strength normal
 
 #==Extreme==#

@@ -23,9 +23,9 @@ execute if score #daycount h-nigh.status > #interval h-nigh.config run function 
 function h-nigh:ref/tick/score_correction
 
 # Hit up the event
-execute unless score #daycount h-nigh.status = #interval h-nigh.config unless score #used h-nigh.ritual matches 1..2 run scoreboard players set #active h-nigh.status 0
+execute unless score #daycount h-nigh.status = #interval h-nigh.config unless score #used h-nigh.ritual matches 1..3 run scoreboard players set #active h-nigh.status 0
 execute unless score #active h-nigh.status matches 1.. if score #daycount h-nigh.status = #interval h-nigh.config run scoreboard players set #active h-nigh.status 1
-execute unless score #active h-nigh.status matches 1.. if score #used h-nigh.ritual matches 1..2 run scoreboard players set #active h-nigh.status 1
+execute unless score #active h-nigh.status matches 1.. if score #used h-nigh.ritual matches 1..3 run scoreboard players set #active h-nigh.status 1
 execute if score #active h-nigh.status matches 1 if score #gametime h-nigh.status = time_start h-nigh.config run scoreboard players set #active h-nigh.status 2
 
 execute if score #active h-nigh.status matches 2.. unless score #gametime h-nigh.status >= time_start h-nigh.config run scoreboard players set #active h-nigh.status 1
@@ -60,3 +60,6 @@ execute if score #active h-nigh.status matches 5 run function h-nigh:ref/tick/fi
 execute unless score #active h-nigh.status matches 2.. as @e[tag=h-nigh.eligible,tag=!h-nigh.ignore] run tag @s add h-nigh.ignore
 execute unless score #active h-nigh.status matches 2.. as @e[tag=h-nigh.mob] at @s run tp @s ~ ~-1000 ~
 execute unless score #active h-nigh.status matches 2.. as @e[type=#h-nigh:recruited,tag=!h-nigh.ignore] run tag @s add h-nigh.ignore
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.time_since_slay 0
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.alive 0
+execute unless score #active h-nigh.status matches 2.. as @a run scoreboard players set @s h-nigh.deaths 0
