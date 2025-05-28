@@ -28,6 +28,7 @@ Experimental Features **DO NOT**:
     - Due to this overhaul, ritual advancements may have been reset for existing worlds.
   - Added New Ritual Paths for more control over summoning lunar events
     - Haunting/Infusion for a guarenteed Super Moon.
+    - Groundwork for more in the future.
   - Error Messages
     - Messages are now more consistent.
     - The message for when a lunar event is already incoming is now more clear.
