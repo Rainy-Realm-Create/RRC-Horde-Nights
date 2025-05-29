@@ -17,7 +17,7 @@ tellraw @s [{"text":"Active Interval: ","color":"aqua"},{"score":{"name":"#inter
 tellraw @s [{"text":"Manual Difficulty: ","color":"aqua"},{"score":{"name":"difficulty","objective":"h-nigh.config"},"color":"red"}]
 tellraw @s [{"text":"Active Difficulty: ","color":"aqua"},{"score":{"name":"#difficulty","objective":"h-nigh.config"},"color":"red"}]
 
-tellraw @s [{"text":"Ritual Enabled?: ","color":"aqua"},{"score":{"name":"ritual_toggle","objective":"h-nigh.config"},"color":"red"}]
+tellraw @s [{"text":"Ritual Enabled?: ","color":"aqua"},{"score":{"name":"blood_ritual","objective":"h-nigh.config"},"color":"red"}]
 tellraw @s [{"text":"Ritual Used?: ","color":"aqua"},{"score":{"name":"#used","objective":"h-nigh.ritual"},"color":"red"}]
 
 tellraw @s [{"text":"Day Counter: ","color":"aqua"},{"score":{"name":"#daycount","objective":"h-nigh.status"},"color":"red"}]
