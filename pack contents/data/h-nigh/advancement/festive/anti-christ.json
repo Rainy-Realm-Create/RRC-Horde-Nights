@@ -32,12 +32,9 @@
     },
     "parent": "rrc:h-nigh",
     "criteria": {
-      "Long Night": {
+      "h-nigh:anti-christ": {
         "trigger": "minecraft:impossible"
       }
-    },
-    "rewards": {
-      "experience": 100
     }
   }
   

@@ -42,7 +42,7 @@
   },
   "parent": "blazeandcave:challenges/the_world_is_ending",
   "criteria": {
-    "Long Night": {
+    "h-nigh:many_nights": {
       "trigger": "minecraft:impossible"
     }
   },

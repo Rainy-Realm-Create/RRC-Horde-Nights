@@ -17,7 +17,6 @@
     }
   },
   "rewards": {
-    "function": "h-nigh:stats/slay/mobs/creepers/modded/hills_creeper",
-    "experience": 34
+    "function": "h-nigh:stats/slay/mobs/creepers/modded/hills_creeper"
   }
 }

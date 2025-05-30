@@ -36,7 +36,7 @@
   },
   "parent": "h-nigh:blood/blood_hunt",
   "criteria": {
-    "Long Night": {
+    "h-nigh:long_night": {
       "trigger": "minecraft:impossible"
     }
   },

@@ -36,7 +36,7 @@
   },
   "parent": "h-nigh:festive/anti-christ",
   "criteria": {
-    "Long Night": {
+    "h-nigh:holy_night": {
       "trigger": "minecraft:impossible"
     }
   },

@@ -17,8 +17,7 @@
       }
     },
     "rewards": {
-      "function": "h-nigh:stats/mobs/slay/skeletons/stray",
-      "experience": 18
+      "function": "h-nigh:stats/mobs/slay/skeletons/stray"
     }
   }
   

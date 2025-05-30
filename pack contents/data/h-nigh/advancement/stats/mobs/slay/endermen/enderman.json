@@ -17,7 +17,6 @@
     }
   },
   "rewards": {
-    "function": "h-nigh:stats/mobs/slay/endermen/enderman",
-    "experience": 54
+    "function": "h-nigh:stats/mobs/slay/endermen/enderman"
   }
 }

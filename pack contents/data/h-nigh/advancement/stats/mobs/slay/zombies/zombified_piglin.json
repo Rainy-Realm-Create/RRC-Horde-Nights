@@ -17,7 +17,6 @@
     }
   },
   "rewards": {
-    "function": "h-nigh:stats/mobs/slay/zombies/zombified_piglin",
-    "experience": 33
+    "function": "h-nigh:stats/mobs/slay/zombies/zombified_piglin"
   }
 }

@@ -46,7 +46,7 @@
   },
   "parent": "h-nigh:blood/many_nights",
   "criteria": {
-    "Long Night": {
+    "h-nigh:too_many_nights": {
       "trigger": "minecraft:impossible"
     }
   },

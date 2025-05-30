@@ -32,11 +32,11 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "h-nigh:blood/many_nights",
   "criteria": {
-    "Long Night": {
+    "h-nigh:the_rapture": {
       "trigger": "minecraft:impossible"
     }
   },

@@ -1,4 +1,4 @@
-# Horde Nights v1.3.4
+# Horde Nights v1.3.5
 
 ## Experimental Features
 
@@ -18,11 +18,19 @@ Experimental Features **DO NOT**:
 ### Changes
 
 - Init v
-- 
+- "Anti-Christ" advancement no longer gives an Exp reward.
+- Exp Rewards for killing mobs have been changed:
+  - There is no additional exp reward for killing a mob during a festive moon now.
+  - There is now an additional EXP reward for killing a mob during a bunk blood moon.
+  - Increased the EXP reward for killing a mob during a super moon.
+  - Nerfed the additional exp reward from zombie villagers(this is in prep for their upcoming content, making it less worth killing them).
+  - Buffed the additional exp reward from killing cave spiders, spiders, bogged, & stray.
+- You can no longer earn statistic kills during festive moon events.
+- Advancement Tweaks
 
 ### Fixes
 
-- 
+- Fixed Festive Moon "Gifting" mechanic not working at all.
 
 ### Known Issues
 

@@ -32,7 +32,7 @@
     },
     "parent": "h-nigh:blood/blood_hunt",
     "criteria": {
-      "Coward": {
+      "h-nigh:super_hunt": {
         "trigger": "minecraft:impossible"
       }
     }

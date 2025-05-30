@@ -36,7 +36,7 @@
   },
   "parent": "h-nigh:super/super_hunt",
   "criteria": {
-    "Long Night": {
+    "h-nigh:eternal_night": {
       "trigger": "minecraft:impossible"
     }
   },

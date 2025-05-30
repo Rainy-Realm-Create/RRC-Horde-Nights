@@ -17,7 +17,6 @@
     }
   },
   "rewards": {
-    "function": "h-nigh:stats/mobs/slay/skeletons/skeleton",
-    "experience": 18
+    "function": "h-nigh:stats/mobs/slay/skeletons/skeleton"
   }
 }
