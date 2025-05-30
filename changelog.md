@@ -18,7 +18,6 @@ Experimental Features **DO NOT**:
 ### Changes
 
 - Init v
-- "Anti-Christ" advancement no longer gives an Exp reward.
 - Exp Rewards for killing mobs have been changed:
   - There is no additional exp reward for killing a mob during a festive moon now.
   - There is now an additional EXP reward for killing a mob during a bunk blood moon.
