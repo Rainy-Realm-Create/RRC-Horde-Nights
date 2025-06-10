@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:echo_shard",
+      "id": "minecraft:clock",
       "components": {
         "minecraft:custom_model_data": 6548002
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.super_pact.title",
-      "fallback": "An Unbinding Pact",
-      "color": "black",
+      "translate": "rrc.h-nigh.advancement.weird_night.title",
+      "fallback": "Weirdest Night of My Life!",
+      "color": "dark_green",
       "bold": true,
       "italic": true,
       "underlined": false,
@@ -17,23 +17,26 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.super_pact.description",
-      "fallback": "Participate in a Haunted Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.weird_night.description",
+      "fallback": "Survive a Bunk Blood Moon...",
       "bold": false,
       "italic": true,
       "underlined": false,
       "strikethrough": false,
       "obfuscated": false
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "h-nigh:ritual/great_infusion",
+  "parent": "h-nigh:blood/blood_hunt",
   "criteria": {
-    "h-nigh:super_pact": {
+    "h-nigh:long_night": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 2000
   }
 }

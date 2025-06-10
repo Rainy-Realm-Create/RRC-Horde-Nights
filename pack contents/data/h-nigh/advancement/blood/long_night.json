@@ -9,7 +9,7 @@
     "title": {
       "translate": "rrc.h-nigh.advancement.long_night.title",
       "fallback": "Longest Night of My Life!",
-      "color": "dark_red",
+      "color": "red",
       "bold": true,
       "italic": true,
       "underlined": false,

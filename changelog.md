@@ -13,7 +13,7 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- 
+- Added two new advancements.
 
 ### Changes
 
@@ -26,10 +26,14 @@ Experimental Features **DO NOT**:
   - Buffed the additional exp reward from killing cave spiders, spiders, bogged, & stray.
 - You can no longer earn statistic kills during festive moon events.
 - Advancement Tweaks
+  - Ritual advancements are now placed behind the minecraft "obtain diamonds" advancement.
+  - Ritual advancements no longer announce to chat.
+  - Design tweaks
 
 ### Fixes
 
 - Fixed Festive Moon "Gifting" mechanic not working at all.
+- Fix bad predicate checks preventing creation of bunk diamonds.
 
 ### Known Issues
 
