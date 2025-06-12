@@ -1,18 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
-  "key": {
-    "#": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:diamond",
+      "minecraft:redstone",
+      "minecraft:redstone",
+      "minecraft:redstone",
+      "minecraft:redstone",
+      "minecraft:redstone",
+      "minecraft:redstone",
+      "minecraft:redstone",
       "minecraft:redstone"
-    ],
-    "$": [
-      "minecraft:diamond"
     ]
-  },
+  ],
   "result": {
     "id": "minecraft:diamond",
     "count": 1,

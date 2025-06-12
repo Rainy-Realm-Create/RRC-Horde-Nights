@@ -29,6 +29,7 @@ Experimental Features **DO NOT**:
   - Ritual advancements are now placed behind the minecraft "obtain diamonds" advancement.
   - Ritual advancements no longer announce to chat.
   - Design tweaks
+- Primed Diamond crafting recipe is now shapeless.
 
 ### Fixes
 
