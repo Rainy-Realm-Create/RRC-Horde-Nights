@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 29
+          "weight": 69
         },
         {
           "type": "minecraft:item",
@@ -18,7 +18,7 @@
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "h-nigh:bunk_horde_sharpness": 1
+                    "h-nigh:horde_sharpness": 1
                   },
                   "show_in_tooltip": true
                 }
@@ -29,12 +29,11 @@
       ]
     },
     {
-      "rolls": 2,
-      "bonus_rolls": 3,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:entities/stray"
+          "value": "minecraft:entities/slime"
         }
       ]
     }

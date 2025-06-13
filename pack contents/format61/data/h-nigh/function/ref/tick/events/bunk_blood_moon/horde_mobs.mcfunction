@@ -20,6 +20,9 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:health_n
 execute as @e[type=#h-nigh:health_normal_only,tag=h-nigh.mob] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.4 add_multiplied_base
 
 
+execute as @e[type=minecraft:slime,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/slime/bunk_blood"}
+
+
 # Drowned, Husk, Zombie, Zombie Villager, Zombified Hoglin, Zombified Piglin
 function h-nigh:ref/tick/events/bunk_blood_moon/horde_mobs/zombies
 
@@ -33,7 +36,7 @@ function h-nigh:ref/tick/events/bunk_blood_moon/horde_mobs/spiders
 
 
 #=======Creeper======#
-execute as @e[type=minecraft:creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/creeper/bunk_blood"}
+execute as @e[type=minecraft:creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/creeper/bunk_blood"}
 #==Generic==#
 execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob] run effect give @s minecraft:oozing 2 4 true
 execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob] run data merge entity @s {ExplosionRadius:0b}
@@ -118,7 +121,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:creepe
 
 
 #=======Enderman======#
-execute as @e[type=minecraft:enderman,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/enderman/bunk_blood"}
+execute as @e[type=minecraft:enderman,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/enderman/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:enderman,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
@@ -143,7 +146,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:enderm
 
 
 #=======Phantom======#
-execute as @e[type=minecraft:phantom,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/phantom/bunk_blood"}
+execute as @e[type=minecraft:phantom,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/phantom/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
@@ -162,7 +165,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:phanto
 
 
 #=======Witch======#
-execute as @e[type=minecraft:witch,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/witch/bunk_blood"}
+execute as @e[type=minecraft:witch,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/witch/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1..2 as @e[type=minecraft:witch,tag=h-nigh.mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
 # easy speed normal

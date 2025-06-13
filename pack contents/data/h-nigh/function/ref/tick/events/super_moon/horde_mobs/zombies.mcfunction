@@ -75,17 +75,17 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombifie
 # extreme health baby
 
 #======Drowned======#
-execute as @e[type=minecraft:drowned,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/drowned/super"}
+execute as @e[type=minecraft:drowned,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/drowned/super"}
 #=====Baby=====#
 
 
 #======Husk======#
-execute as @e[type=minecraft:husk,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/husk/super"}
+execute as @e[type=minecraft:husk,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/husk/super"}
 #=====Baby=====#
 
 
 #=====Zombie=====#
-execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/zombie/super"}
+execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombie/super"}
 #=====Baby=====#
 
 
@@ -94,10 +94,10 @@ execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {De
 
 
 #=====Zoglin=====#
-execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/zoglin/super"}
+execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zoglin/super"}
 #=====Baby=====#
 
 
 #Zombified Piglin#
-execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/zombified_piglin/super"}
+execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombified_piglin/super"}
 #=====Baby=====#

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 29
+          "weight": 49
         },
         {
           "type": "minecraft:item",
@@ -34,7 +34,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:entities/stray"
+          "value": "minecraft:entities/slime"
         }
       ]
     }

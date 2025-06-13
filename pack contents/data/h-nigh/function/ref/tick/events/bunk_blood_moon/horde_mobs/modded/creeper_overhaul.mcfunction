@@ -4,11 +4,11 @@
 #================NOTE=================#
 
 #==Badlands Creeper==#
-execute as @e[type=creeperoverhaul:badlands_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/badlands_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:badlands_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/badlands_creeper/bunk_blood"}
 
 
 #===Bamboo Creeper===#
-execute as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/bamboo_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/bamboo_creeper/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
@@ -44,35 +44,35 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:
 
 
 #====Beach Creeper===#
-execute as @e[type=creeperoverhaul:beach_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/beach_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:beach_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/beach_creeper/bunk_blood"}
 
 
 #====Cave Creeper====#
-execute as @e[type=creeperoverhaul:cave_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/cave_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:cave_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/cave_creeper/bunk_blood"}
 
 
 #==Dark Oak Creeper==#
-execute as @e[type=creeperoverhaul:dark_oak_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/dark_oak_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:dark_oak_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/dark_oak_creeper/bunk_blood"}
 
 
 #===Desert Creeper===#
-execute as @e[type=creeperoverhaul:desert_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/desert_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:desert_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/desert_creeper/bunk_blood"}
 
 
 #==Dripstone Creeper=#
-execute as @e[type=creeperoverhaul:dripstone_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/dripstone_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:dripstone_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/dripstone_creeper/bunk_blood"}
 
 
 #====Hills Creeper===#
-execute as @e[type=creeperoverhaul:hills_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/hills_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:hills_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/hills_creeper/bunk_blood"}
 
 
 #===Jungle Creeper===#
-execute as @e[type=creeperoverhaul:jungle_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/jungle_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:jungle_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/jungle_creeper/bunk_blood"}
 
 
 #==Savannah Creeper==#
-execute as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/savannah_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/savannah_creeper/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
@@ -108,7 +108,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:
 
 
 #====Snowy Creeper===#
-execute as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/snowy_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/snowy_creeper/bunk_blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
@@ -144,8 +144,8 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:
 
 
 #===Spruce Creeper===#
-execute as @e[type=creeperoverhaul:spruce_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/spruce_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:spruce_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/spruce_creeper/bunk_blood"}
 
 
 #====Swamp Creeper===#
-execute as @e[type=creeperoverhaul:swamp_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/modded/swamp_creeper/bunk_blood"}
+execute as @e[type=creeperoverhaul:swamp_creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/swamp_creeper/bunk_blood"}

@@ -6,7 +6,7 @@
 #======Bogged======#
 #==Generic==#
 execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
-execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/bogged/bunk_blood"}
+execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/bogged/bunk_blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:bogged,tag=h-nigh.mob] power 1
@@ -34,7 +34,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 #======Skeleton=====#
 #==Generic==#
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
-execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/skeleton/bunk_blood"}
+execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/skeleton/bunk_blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:skeleton,tag=h-nigh.mob] power 1
@@ -62,7 +62,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 #=======Stray=======#
 #==Generic==#
 execute as @e[type=minecraft:stray,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
-execute as @e[type=minecraft:stray,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/stray/bunk_blood"}
+execute as @e[type=minecraft:stray,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/stray/bunk_blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:stray,tag=h-nigh.mob] power 1

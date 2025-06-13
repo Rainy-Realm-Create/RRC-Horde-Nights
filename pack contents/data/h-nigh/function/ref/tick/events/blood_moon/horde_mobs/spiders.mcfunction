@@ -6,7 +6,7 @@
 #=======Spider=======#
 #==Generic==#
 execute as @e[type=minecraft:spider,tag=h-nigh.mob] run effect give @s minecraft:weaving infinite 1 true
-execute as @e[type=minecraft:spider,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/spider/blood"}
+execute as @e[type=minecraft:spider,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/spider/blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:spider,tag=h-nigh.mob] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 1.4 add_multiplied_base
@@ -34,7 +34,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:spider
 #=====Cave Spider====#
 #==Generic==#
 execute as @e[type=minecraft:cave_spider,tag=h-nigh.mob] run effect give @s minecraft:weaving infinite 3 true
-execute as @e[type=minecraft:cave_spider,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entites/cave_spider/blood"}
+execute as @e[type=minecraft:cave_spider,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/cave_spider/blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:cave_spider,tag=h-nigh.mob] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 1.4 add_multiplied_base
