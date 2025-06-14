@@ -54,6 +54,7 @@
       - Enhanced: attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.65 add_multiplied_base # extreme2 health enhanced
 
 ### Strength
+- Phantoms reduced by half
 
 - Easy Mode
   - 1.21-1.21.1
@@ -138,6 +139,7 @@
       - Enhanced: attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 3.65 add_multiplied_base # extreme2 health enhanced
 
 ### Strength
+- Phantoms easy reduced by half, increment of 0.3
 
 - Easy Mode
   - 1.21-1.21.1

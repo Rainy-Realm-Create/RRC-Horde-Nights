@@ -18,7 +18,7 @@ Experimental Features **DO NOT**:
 ### Changes
 
 - Init v
-- 
+- Nerfed the damage dealt by phantoms by half.
 
 ### Fixes
 

@@ -148,19 +148,19 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:enderm
 #=======Phantom======#
 execute as @e[type=minecraft:phantom,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/phantom/blood"}
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.2 add_multiplied_base
 # easy strength normal
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.4 add_multiplied_base
 # normal strength normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 2.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.6 add_multiplied_base
 # hard strength normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 2.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.8 add_multiplied_base
 # extreme strength normal
 
 
