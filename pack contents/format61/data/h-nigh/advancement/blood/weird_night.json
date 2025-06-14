@@ -3,7 +3,11 @@
     "icon": {
       "id": "minecraft:clock",
       "components": {
-        "minecraft:custom_model_data": 6548003
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548003
+          ]
+        }
       }
     },
     "title": {
