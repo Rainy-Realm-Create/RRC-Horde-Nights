@@ -27,4 +27,4 @@ execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run data merge entity @s {De
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/skeleton/festive"}
 execute as @e[type=minecraft:stray,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/stray/festive"}
 execute as @e[type=minecraft:slime,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/slime/festive"}
-function h-nigh:ref/tick/events/festive_moon/horde_mobs/modded/creeper_overhaul
+#function h-nigh:ref/tick/events/festive_moon/horde_mobs/modded/creeper_overhaul

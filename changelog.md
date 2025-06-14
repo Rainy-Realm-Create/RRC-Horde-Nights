@@ -24,6 +24,8 @@ Experimental Features **DO NOT**:
 
 - Fixed a typo causing horde mobs to not drop anything.
 - Fixed Slimes not being given custom loot tables.
+- Remove more impossible integration code for Creeper Overhaul(it still only supports 1.21/1.21.1).
+  - This is to remove console spam on versions that the mod dev does not support.
 
 ### Known Issues
 
