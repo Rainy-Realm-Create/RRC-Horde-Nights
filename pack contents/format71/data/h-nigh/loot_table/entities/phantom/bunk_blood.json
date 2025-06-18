@@ -14,11 +14,9 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "h-nigh:bunk_horde_sharpness": 1
-                }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "h-nigh:bunk_horde_sharpness": 1
               }
             }
           ]

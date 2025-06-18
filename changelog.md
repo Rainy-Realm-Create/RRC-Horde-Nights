@@ -30,6 +30,9 @@ Experimental Features **DO NOT**:
 - Fixed multiple bugs with the "Weird Night" advancement.
 - Fixed Phantoms spawning in the wall.
 - Fixed Phantoms spawning outside of the overworld.
+- Mostly fixed horde sweep enchantments appearing in loot, they now have a weight of one.
+  - While i cannot disable this completely at this time, the issue has been mitigated as much as possible, and gets less and less prevalent as more enchantment packs are added on top.
+- Fixed "Horde Sweep" and "Bunk Horde Sweep" books dropped from The Horde not being functional.
 
 ### Known Issues
 
