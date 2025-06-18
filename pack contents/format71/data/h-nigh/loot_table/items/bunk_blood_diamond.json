@@ -20,7 +20,7 @@
                   "fallback": "Bunk Blood Diamond",
                   "bold": true,
                   "italic": false,
-                  "color": "dark_red"
+                  "color": "red"
                 },
                 "minecraft:lore": [
                   {

@@ -20,7 +20,7 @@
                   "fallback": "Haunted Diamond",
                   "bold": true,
                   "italic": false,
-                  "color": "black"
+                  "color": "dark_gray"
                 },
                 "minecraft:lore": [
                   {

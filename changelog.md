@@ -9,7 +9,7 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support
+- Updated to support 1.21.6
 
 ### Additions
 
@@ -19,6 +19,7 @@ Experimental Features **DO NOT**:
 
 - Init v
 - Nerfed the damage dealt by phantoms by half.
+- Changed some item style. This will NOT break anything.
 
 ### Fixes
 
