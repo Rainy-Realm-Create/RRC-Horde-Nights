@@ -3,4 +3,4 @@
 #==Liscense for use per Modrinth TOS==#
 #================NOTE=================#
 
-tellraw @a {"text":"Horde Nights Successfully Initialized - Init v10","color":"dark_red"}
+tellraw @a {"text":"Horde Nights Successfully Initialized - Init v10","color":"dark_purple"}

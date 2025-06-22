@@ -1,5 +1,9 @@
 # Horde Nights v1.3.6
 
+## Notes
+
+This version is primarily developed for 1.21/1.21.1, and changes are ported upwards. This means despite estensive playtesting, there is still a higher chance of bugs in 1.21.2+. Please report any you find!
+
 ## Experimental Features
 
 Experimental Features **DO NOT**:
@@ -33,6 +37,7 @@ Experimental Features **DO NOT**:
 - Mostly fixed horde sweep enchantments appearing in loot, they now have a weight of one.
   - While i cannot disable this completely at this time, the issue has been mitigated as much as possible, and gets less and less prevalent as more enchantment packs are added on top.
 - Fixed "Horde Sweep" and "Bunk Horde Sweep" books dropped from The Horde not being functional.
+- Removed extra display code from config.
 
 ### Known Issues
 

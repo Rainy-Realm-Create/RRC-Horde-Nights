@@ -4,7 +4,7 @@
 #================NOTE=================#
 
 tellraw @s {text:' '}
-tellraw @s [{text:'Horde Nights',bold:true,underlined:true,color:"#80FF00"},{text:' ',bold:true,underlined:false,color:"dark_green"},{text:'v1.3.6 Release Candidate 5',bold:true,underlined:true,color:'dark_purple'},{text:' ',bold:true,underlined:false},{text:'Config',bold:true,underlined:true,color:'yellow'},{text:' ',bold:true,underlined:false},{text:'For 1.21.5 & 1.21.6',bold:true,underlined:true,color:'dark_purple'}]
+tellraw @s [{text:'Horde Nights',bold:true,underlined:true,color:"#80FF00"},{text:' ',underlined:false},{text:'v1.3.6',bold:true,underlined:true,color:'dark_purple'},{text:' ',underlined:false},{text:'Config',bold:true,underlined:true,color:'yellow'},{text:' ',underlined:false},{text:'For 1.21.5 & 1.21.6',bold:true,underlined:true,color:'dark_purple'}]
 tellraw @s {text:' '}
 
 tellraw @s {text:'Want to Modify the Gameplay?'}
