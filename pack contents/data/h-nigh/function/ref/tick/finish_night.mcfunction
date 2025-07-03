@@ -14,6 +14,7 @@ execute as @a if score @s h-nigh.blood_moon_survive_stat matches 100.. run advan
 
 execute if score #event h-nigh.status matches 2 as @a unless score @s h-nigh.alive matches 1.. run scoreboard players add @s h-nigh.bunk_blood_moon_survive_stat 1
 execute as @a if score @s h-nigh.bunk_blood_moon_survive_stat matches 1.. run advancement grant @s only h-nigh:blood/weird_night
+execute as @a if score @s h-nigh.bunk_blood_moon_survive_stat matches 66.. run advancement grant @s only h-nigh:blood/weird_nights
 
 execute if score #event h-nigh.status matches 3 as @a unless score @s h-nigh.alive matches 1.. run scoreboard players add @s h-nigh.super_moon_survive_stat 1
 execute as @a if score @s h-nigh.super_moon_survive_stat matches 1.. run advancement grant @s only h-nigh:super/eternal_night

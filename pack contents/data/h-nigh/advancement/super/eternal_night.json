@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.eternal_night.description",
-      "fallback": "Survive a SUPER Moon...",
+      "fallback": "Endure your first SUPER Moon...",
       "bold": false,
       "italic": true,
       "underlined": false,

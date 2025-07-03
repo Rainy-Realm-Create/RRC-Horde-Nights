@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.holy_night.description",
-      "fallback": "Go through a Festive Moon",
+      "fallback": "Go through your first Festive Moon",
       "bold": false,
       "italic": true,
       "underlined": false,

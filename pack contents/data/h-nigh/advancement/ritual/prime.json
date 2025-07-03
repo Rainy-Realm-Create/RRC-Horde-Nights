@@ -8,7 +8,7 @@
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.ritual.prime.title",
-      "fallback": "Prime!",
+      "fallback": "Optimus Prime!",
       "color": "dark_blue",
       "bold": true,
       "italic": true,

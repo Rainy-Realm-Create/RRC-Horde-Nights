@@ -2,7 +2,7 @@
   "anvil_cost": 2,
   "description": {
     "translate": "rrc.h-nigh.enchantment.horde_sharpness",
-    "fallback": "Horde Sweep"
+    "fallback": "Horde Slayer"
   },
   "effects": {
     "minecraft:damage": [

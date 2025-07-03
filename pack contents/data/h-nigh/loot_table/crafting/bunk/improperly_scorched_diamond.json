@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 6548003,
-                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.improporly_scorched_diamond.name\",\"fallback\":\"Improperly Scorched Diamond\",\"bold\":true,\"italic\":false,\"color\":\"dark_red\"}",
+                "minecraft:custom_name": "{\"translate\":\"rrc.h-nigh.item.diamond.improperly_scorched_diamond.name\",\"fallback\":\"Improperly Scorched Diamond\",\"bold\":true,\"italic\":false,\"color\":\"dark_red\"}",
                 "minecraft:lore": [
                   "{\"translate\":\"rrc.ref.item.crafting.failed.bunk.sacrifice_crafting\",\"fallback\":\"Bunk Sacrificial Crafting Ingredient\",\"italic\":false,\"color\":\"dark_gray\"}",
                   "{\"translate\":\"rrc.ref.item.crafting.failed.bunk.description\",\"fallback\":\"Can still be used, but things may go... weird.\",\"italic\":false,\"color\":\"dark_gray\"}",

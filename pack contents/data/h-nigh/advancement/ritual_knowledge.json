@@ -7,8 +7,8 @@
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.ritual.ritual_knowledge.title",
-      "fallback": "Ritual Knowledge",
+      "translate": "rrc.h-nigh.advancement.ritual_knowledge.title",
+      "fallback": "Ritual Mastery",
       "color": "dark_blue",
       "bold": true,
       "italic": true,
@@ -17,7 +17,7 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.ritual.ritual_knowledge.description",
+      "translate": "rrc.h-nigh.advancement.ritual_knowledge.description",
       "fallback": "Complete all currently availible ritual paths.",
       "bold": false,
       "italic": true,

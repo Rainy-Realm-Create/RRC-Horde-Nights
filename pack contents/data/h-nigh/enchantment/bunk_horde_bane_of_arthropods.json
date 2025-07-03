@@ -1,8 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "rrc.h-nigh.enchantment.bunk_horde_sharpness",
-    "fallback": "Bunk Horde Slayer"
+    "translate": "rrc.h-nigh.enchantment.bunk_horde_bane_of_arthropods",
+    "fallback": "Bunk Horde Arthropod Slayer"
   },
   "effects": {
     "minecraft:damage": [
@@ -11,15 +11,16 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.1,
-            "per_level_above_first": 0.1
+            "base": 0.2,
+            "per_level_above_first": 0.2
           }
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"h-nigh.mob\"]}"
+            "nbt": "{Tags:[\"h-nigh.mob\"]}",
+            "type": "#minecraft:sensitive_to_bane_of_arthropods"
           }
         }
       }

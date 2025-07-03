@@ -8,7 +8,7 @@
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.weird_night.title",
-      "fallback": "Weirdest Night of My Life!",
+      "fallback": "Weirdest Night of My Life?",
       "color": "dark_green",
       "bold": true,
       "italic": true,
@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.weird_night.description",
-      "fallback": "Survive a Bunk Blood Moon...",
+      "fallback": "Survive your first Bunk Blood Moon...",
       "bold": false,
       "italic": true,
       "underlined": false,
@@ -32,7 +32,7 @@
   },
   "parent": "h-nigh:blood/blood_hunt",
   "criteria": {
-    "h-nigh:long_night": {
+    "h-nigh:weird_night": {
       "trigger": "minecraft:impossible"
     }
   },

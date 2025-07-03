@@ -1,8 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "rrc.h-nigh.enchantment.bunk_horde_sharpness",
-    "fallback": "Bunk Horde Slayer"
+    "translate": "rrc.h-nigh.enchantment.horde_bane_of_arthropods",
+    "fallback": "Horde Arthropod Slayer"
   },
   "effects": {
     "minecraft:damage": [
@@ -11,15 +11,16 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.1,
-            "per_level_above_first": 0.1
+            "base": 3,
+            "per_level_above_first": 2
           }
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"h-nigh.mob\"]}"
+            "nbt": "{Tags:[\"h-nigh.mob\"]}",
+            "type": "#minecraft:sensitive_to_bane_of_arthropods"
           }
         }
       }
@@ -27,17 +28,17 @@
   },
   "exclusive_set": "#h-nigh:exclusive_set/horde_damage",
   "max_cost": {
-    "base": 1,
-    "per_level_above_first": 2
+    "base": 25,
+    "per_level_above_first": 8
   },
-  "max_level": 69,
+  "max_level": 5,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 1
+    "base": 5,
+    "per_level_above_first": 8
   },
   "primary_items": "#minecraft:enchantable/sword",
   "slots": [
-    "offhand"
+    "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
   "weight": 1

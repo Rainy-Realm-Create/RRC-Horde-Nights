@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.long_night.description",
-      "fallback": "Survive a Blood Moon...",
+      "fallback": "Survive your first Blood Moon.",
       "bold": false,
       "italic": true,
       "underlined": false,

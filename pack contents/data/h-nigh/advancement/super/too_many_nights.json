@@ -18,7 +18,7 @@
     "description": [
       {
         "translate": "rrc.h-nigh.advancement.too_many_nights.description",
-        "fallback": "Survive 50 SUPER Moons...",
+        "fallback": "Endure 50 SUPER Moons...",
         "color": "#FF2A2A",
         "bold": false,
         "italic": true,

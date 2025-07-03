@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.ritual.weakest_pact.description",
-      "fallback": "Participate in a Bunk Blood Ritual activation.",
+      "fallback": "Participate in a Bunk Blood Ritual activation by throwing a Bunk Blood Diamond onto a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,

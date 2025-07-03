@@ -13,17 +13,20 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support 1.21.6
+- Updated to support 1.21.6 & 1.21.7
 
 ### Additions
 
 - Added two new advancements.
+- Added Horde "Bane Of Arthropods" enchantments
 
 ### Changes
 
 - Init v
 - Nerfed the damage dealt by phantoms by half.
 - Changed some item style. This will NOT break anything.
+- Updated advancement names and descriptions.
+  - Some advancements are now more clear about how mechanics work.
 
 ### Fixes
 

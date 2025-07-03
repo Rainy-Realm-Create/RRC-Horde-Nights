@@ -8,7 +8,7 @@
       },
       "title": {
         "translate": "rrc.h-nigh.advancement.the_rapture.title",
-        "fallback": "The holiest of nights... Again and again...",
+        "fallback": "The Rapture Keeps Coming!",
         "color": "red",
         "bold": true,
         "italic": true,

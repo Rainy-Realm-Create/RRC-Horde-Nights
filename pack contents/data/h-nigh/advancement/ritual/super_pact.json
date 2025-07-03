@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "rrc.h-nigh.advancement.super_pact.title",
+      "translate": "rrc.h-nigh.advancement.ritual.super_pact.title",
       "fallback": "An Unbinding Pact",
       "color": "black",
       "bold": true,
@@ -17,8 +17,8 @@
       "obfuscated": false
     },
     "description": {
-      "translate": "rrc.h-nigh.advancement.super_pact.description",
-      "fallback": "Participate in a Haunted Ritual activation.",
+      "translate": "rrc.h-nigh.advancement.ritual.super_pact.description",
+      "fallback": "Participate in a Haunted Ritual activation by throwing a Haunted Diamond onto a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,

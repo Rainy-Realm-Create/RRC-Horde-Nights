@@ -8,7 +8,7 @@
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.ritual.bad_burn.title",
-      "fallback": "Bad Burn",
+      "fallback": "Bad Burn. Ouch!",
       "color": "gold",
       "bold": true,
       "italic": true,

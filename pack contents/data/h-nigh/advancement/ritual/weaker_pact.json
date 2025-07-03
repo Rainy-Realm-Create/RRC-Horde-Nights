@@ -8,7 +8,7 @@
     },
     "title": {
       "translate": "rrc.h-nigh.advancement.ritual.weaker_pact.title",
-      "fallback": "A Weaker Pact",
+      "fallback": "A Less Binding Pact",
       "color": "red",
       "bold": true,
       "italic": true,
@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.ritual.weaker_pact.description",
-      "fallback": "Participate in a Bunk Haunted Ritual activation.",
+      "fallback": "Participate in a Bunk Haunted Ritual activation by throwing a Bunk Haunted Diamond onto a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,

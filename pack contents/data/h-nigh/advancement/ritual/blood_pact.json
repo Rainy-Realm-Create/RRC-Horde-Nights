@@ -18,7 +18,7 @@
     },
     "description": {
       "translate": "rrc.h-nigh.advancement.ritual.blood_pact.description",
-      "fallback": "Participate in a Blood Ritual activation.",
+      "fallback": "Participate in a Blood Ritual activation by throwing a Blood Diamond onto a soul campfire.",
       "bold": false,
       "italic": true,
       "underlined": false,

@@ -4,30 +4,30 @@
     "pack_format": 48,
     "supported_formats": {
       "min_inclusive": 48,
-      "max_inclusive": 80
+      "max_inclusive": 81
     },
-    "description": "[1.21-1.21.6] Horde Nights; By RRC"
+    "description": "[1.21-1.21.7] Horde Nights; By RRC"
   },
   "overlays": {
     "entries": [
       {
         "formats": {
           "min_inclusive": 57,
-          "max_inclusive": 80
+          "max_inclusive": 81
         },
         "directory": "format57"
       },
       {
         "formats": {
           "min_inclusive": 61,
-          "max_inclusive": 80
+          "max_inclusive": 81
         },
         "directory": "format61"
       },
       {
         "formats": {
           "min_inclusive": 71,
-          "max_inclusive": 80
+          "max_inclusive": 81
         },
         "directory": "format71"
       }
