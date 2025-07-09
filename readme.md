@@ -9,7 +9,7 @@ During Lunar Events, you will have to face The Horde. The members of The Horde w
 If you wish to summon a Lunar Event yourself, instead of waiting, you can perform a Blood Ritual. You will need both campfire types.
 Be careful, if you mess up the ritual, things may go very weird.
 
-We have also added 10+ advancements on our own, plus 3+ Super Challenge(s) when paired with Blaze & Cave's Advancement Pack(see Integrations below).
+We have also added 7+ advancements on our own, plus 3+ Super Challenge(s) when paired with Blaze & Cave's Advancement Pack(see Integrations below).
 
 ## Support:
 
@@ -30,9 +30,9 @@ Horde Nights has integrations with several other packs. Please bear in mind some
 
 - [RRC Resources](https://modrinth.com/resourcepack/rrc-resources/versions) Integration for 1.20+
   - This is highly recommended for a more immersive gameplay experience, but is completely optional.
-- [Mo-Variants](https://modrinth.com/datapack/mo-variants/versions) Integration for 1.21+
+- [Mo-Variants](https://modrinth.com/datapack/mo-variants/versions) Integration for 1.20+
   - This integration reduces issues with some variants, and even adds a couple unique Horde Effects for some other variants.
-  - Works best with Mo-Variants 8.0.0 or Higher(this version unreleased, pending 7.7.0 Completion)
+  - Works best with Mo-Variants 7.7.0 or Higher(this version is currently in betas)
 - [Mo-Critters](https://modrinth.com/datapack/mo-critters/versions) Integration for 1.20+
   - This integration ensures that critters do not spawn during negative Lunar Events, keeping the creepy vibe intact.
   - Ensure you have v1.0.12+ for 1.20.x or 1.3.0+ for 1.21.x as this pack split off from Mo-Variants.
@@ -42,8 +42,10 @@ Horde Nights has integrations with several other packs. Please bear in mind some
 - [Creeper Overhaul](https://modrinth.com/mod/creeper-overhaul/versions?g=1.20&g=1.20.1&g=1.21&g=1.21.1) Integration for 1.20/1.20.1 & 1.21/1.21.1
   - This integration recruits 13/14 new creepers to The horde.
   - Not using this integration creates a cosmetic error in log, ignore it.
-- [Time Lib](https://modrinth.com/datapack/timelib/versions) Integration for 1.21-1.21.5
-  - This integration will allow the automatic enabling and disabling of Festive Moons.
+- [Time Lib](https://modrinth.com/datapack/timelib/versions) Integration for 1.21+
+  - This integration will allow the automatic enabling and disabling of:
+    - Festive Moons
+    - Natural Bunk Events
   - This integration can be toggled in the "Advanced" section of the config
 
 Only these projects are guaranteed to work with this pack. While we do our best to maintain decent compatibility standards, things may interact weirdly. Please report any incompatibilities or suggest any ideas for official integration improvements in our discord!
