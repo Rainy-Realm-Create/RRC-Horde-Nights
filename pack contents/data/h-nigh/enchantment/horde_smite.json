@@ -1,8 +1,8 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "rrc.h-nigh.enchantment.horde_bane_of_arthropods",
-    "fallback": "Horde Arthropod Slayer"
+    "translate": "rrc.h-nigh.enchantment.horde_smite",
+    "fallback": "Horde Undead Crusher"
   },
   "effects": {
     "minecraft:damage": [
@@ -20,7 +20,7 @@
           "entity": "this",
           "predicate": {
             "nbt": "{Tags:[\"h-nigh.mob\"]}",
-            "type": "#minecraft:sensitive_to_bane_of_arthropods"
+            "type": "#minecraft:sensitive_to_smite"
           }
         }
       }

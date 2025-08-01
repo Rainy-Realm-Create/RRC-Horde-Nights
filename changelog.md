@@ -1,4 +1,4 @@
-# Horde Nights v1.3.6
+# Horde Nights v1.3.7
 
 ## Notes
 
@@ -17,16 +17,23 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- 
+- Added Horde Skeleton Horses
+  - They have a 1/64 chance to spawn instead of a skeleton.
+    - There is also a variant that spawns instead of a stray.
+  - These guys do not despawn when the night is over.
+  - They are affected by the Horde's size increase.
+  - They have more health and a couple other minor stats than regular skeleton horses.
+    - The health is mainly to help ensure you don't kill them while fighting the horde mob on top of them.
+- Added Horde "Smite" & Bunk form.
 
 ### Changes
 
-- Init v
-- 
+- Init v11
+- Slightly buffed Horde "Bane of Arthropods" to be stronger than the bunk form.
 
 ### Fixes
 
-- 
+- Fixed [#11](https://discord.com/channels/1169157210241249350/1400861110441087088/1400925310870098112) - Primed Diamond Recipe broken in 1.21.2+
 
 ### Known Issues
 

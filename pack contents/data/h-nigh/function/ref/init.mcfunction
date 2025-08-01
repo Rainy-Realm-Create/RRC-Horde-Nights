@@ -17,8 +17,12 @@ scoreboard players add #event h-nigh.status 0
 scoreboard objectives add h-nigh.random dummy
 
 
-# the socoreboard used for random visual effects
+# the scoreboard used for random visual effects
 scoreboard objectives add h-nigh.vfx_random dummy
+
+
+# data used for mob spawning/modification
+scoreboard objectives add h-nigh.y dummy
 
 
 # Config
@@ -167,5 +171,5 @@ scoreboard objectives add h-nigh.zomb_pigl_slay_stat dummy {"translate":"rrc.h-n
 
 # Finish up
 execute unless score #active h-nigh.status = matches 1.. run function h-nigh:config/default_days
-scoreboard players set h-nigh rrc.init 10
+scoreboard players set h-nigh rrc.init 11
 schedule function h-nigh:ref/tellraw/init 1s

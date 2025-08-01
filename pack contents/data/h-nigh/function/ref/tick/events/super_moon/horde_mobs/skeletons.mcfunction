@@ -32,6 +32,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 
 
 #======Skeleton=====#
+execute as @e[type=minecraft:skeleton,tag=h-nigh.mob,tag=!h-nigh.not_skeleton_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/super_moon/horde_mobs/skeletons/skeleton_horse
 #==Generic==#
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/skeleton/super"}
@@ -60,6 +61,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 
 
 #=======Stray=======#
+execute as @e[type=minecraft:stray,tag=h-nigh.mob,tag=!h-nigh.not_stray_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/super_moon/horde_mobs/skeletons/stray_horse
 #==Generic==#
 execute as @e[type=minecraft:stray,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
 execute as @e[type=minecraft:stray,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/stray/super"}
