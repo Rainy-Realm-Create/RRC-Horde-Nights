@@ -29,7 +29,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "h-nigh:bunk_horde_bane_of_arthropods": 1
+                "h-nigh:bunk_horde_smite": 1
               }
             }
           ]

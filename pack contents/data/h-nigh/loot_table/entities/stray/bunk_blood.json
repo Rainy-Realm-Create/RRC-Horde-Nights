@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 29
+          "weight": 58
         },
         {
           "type": "minecraft:item",
@@ -20,6 +20,19 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "h-nigh:bunk_horde_bane_of_arthropods": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -29,7 +42,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:entities/stray"
+          "value": "minecraft:entities/spider"
         }
       ]
     }

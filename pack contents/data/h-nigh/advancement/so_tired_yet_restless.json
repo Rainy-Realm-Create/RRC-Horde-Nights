@@ -15,7 +15,7 @@
       },
       "description": {
         "translate": "rrc.h-nigh.advancement.so_tired_yet_restless.description",
-        "fallback": "No rest for you on these nights..."
+        "fallback": "Sleeping some nights away takes determination, but others are downright impossible. No rest for you on those nights!"
       },
       "frame": "task",
       "show_toast": true,

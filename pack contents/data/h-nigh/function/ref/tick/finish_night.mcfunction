@@ -29,6 +29,7 @@ worldborder warning distance 10
 tp @e[tag=h-nigh.converted] ~ ~-300 ~
 execute as @a run scoreboard players set @s h-nigh.time_since_slay 0
 execute as @a run scoreboard players set @s h-nigh.deaths 0
+execute as @a run scoreboard players set @s h-nigh.no_sleep_counter 0
 
 scoreboard players set #active h-nigh.status 0
 scoreboard players set #event h-nigh.status 0

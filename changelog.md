@@ -1,4 +1,4 @@
-# Horde Nights v1.3.7
+# Horde Nights v1.3.8
 
 ## Notes
 
@@ -17,23 +17,28 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- Added Horde Skeleton Horses
-  - They have a 1/64 chance to spawn instead of a skeleton.
-    - There is also a variant that spawns instead of a stray.
-  - These guys do not despawn when the night is over.
-  - They are affected by the Horde's size increase.
-  - They have more health and a couple other minor stats than regular skeleton horses.
-    - The health is mainly to help ensure you don't kill them while fighting the horde mob on top of them.
-- Added Horde "Smite" & Bunk form.
+- Added Horde Diffuser & Bunk form.
+  - This enchantment applies to creepers(yes, even the modded ones).
+- Added a new advancement.
 
 ### Changes
 
-- Init v11
-- Slightly buffed Horde "Bane of Arthropods" to be stronger than the bunk form.
+- Init v12
+- Horde Rod drop has changed:
+  - The item is now part of it's own loot pool with a 1/60 drop rate.
+  - The item USED to be a part of the same pool as enchantments, however this made it way rarer than intended.
+- The no-sleep system now includes festive moons again.
+  - You can now bypass a festive moon by attempting to sleep 5 times.
 
 ### Fixes
 
-- Fixed [#11](https://discord.com/channels/1169157210241249350/1400861110441087088/1400925310870098112) - Primed Diamond Recipe broken in 1.21.2+
+- Fixed enchantments not being properly included in the exclusive set.
+- Fixed new enchantments not dropping(smite).
+- Fixed enchantment drops not respecting the mob drop swap during bunk events.
+- Fixed enchantment drop from slimes being rarer than intended.
+- Fixed slime not being included in the mob drop swap druing bunk events.
+- Fixed stray not being included in the mob drop swap druing bunk events.
+- Fixed being able to sleep through festive moons.
 
 ### Known Issues
 

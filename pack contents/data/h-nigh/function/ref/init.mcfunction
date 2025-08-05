@@ -64,6 +64,7 @@ scoreboard players add #used h-nigh.ritual 0
 
 # Surviving
 scoreboard objectives add h-nigh.alive dummy
+scoreboard objectives add h-nigh.no_sleep_counter dummy
 
 
 # Misc Core
@@ -171,5 +172,5 @@ scoreboard objectives add h-nigh.zomb_pigl_slay_stat dummy {"translate":"rrc.h-n
 
 # Finish up
 execute unless score #active h-nigh.status = matches 1.. run function h-nigh:config/default_days
-scoreboard players set h-nigh rrc.init 11
+scoreboard players set h-nigh rrc.init 12
 schedule function h-nigh:ref/tellraw/init 1s
