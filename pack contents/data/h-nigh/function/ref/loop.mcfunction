@@ -8,7 +8,7 @@
 scoreboard players add #sec_loop h-nigh.status 1
 execute if score #sec_loop h-nigh.status matches 20.. run function h-nigh:ref/sec_loop
 scoreboard players add #sleep_count_reduction h-nigh.status 1
-execute if score #sleep_count_reduction h-nigh.status matches 103.. as @a unless score @s h-nigh.no_sleep_counter matches ..0 run scoreboard players remove @s 1
+execute if score #sleep_count_reduction h-nigh.status matches 103.. as @a unless score @s h-nigh.no_sleep_counter matches ..0 run scoreboard players remove @s h-nigh.no_sleep_counter 1
 execute if score #sleep_count_reduction h-nigh.status matches 103.. run scoreboard players set #sleep_count_reduction h-nigh.status 0
 
 # Get things in order

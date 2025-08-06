@@ -13,7 +13,7 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support 
+- Updated with experimental support for 1.21.9 snapshots(25w31a & 25w32a).
 
 ### Additions
 
@@ -50,6 +50,7 @@ Experimental Features **DO NOT**:
   - This does not fix modded compatability, however any mods that do not modify sleeping through the night should work fine.
   - If the tick is set to 1 in the morning, the night will end properly.
   - Sleeping through events that 100% block it is still an unintended compatability issue, however this should remove some jank without breaking anything else.
+- Fixed "Weird Nights" advancement in 1.21.4+
 
 ### Known Issues
 

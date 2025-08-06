@@ -21,7 +21,7 @@ execute as @a if score @s h-nigh.super_moon_survive_stat matches 1.. run advance
 execute as @a if score @s h-nigh.super_moon_survive_stat matches 50.. run advancement grant @s only h-nigh:super/too_many_nights
 
 execute if score #event h-nigh.status matches 5 as @a if score @s h-nigh.no_sleep_counter matches 5.. run scoreboard players set @a h-nigh.alive 3
-execute if score #event h-nigh.status matches 5 unless as @a unless score @s h-nigh.alive matches 3 run scoreboard players add @s h-nigh.festive_moon_survive_stat 1
+execute if score #event h-nigh.status matches 5 as @a unless score @s h-nigh.alive matches 3 run scoreboard players add @s h-nigh.festive_moon_survive_stat 1
 execute as @a if score @s h-nigh.festive_moon_survive_stat matches 1.. run advancement grant @s only h-nigh:festive/holy_night
 execute as @a if score @s h-nigh.festive_moon_survive_stat matches 33.. run advancement grant @s only h-nigh:festive/the_rapture
 
