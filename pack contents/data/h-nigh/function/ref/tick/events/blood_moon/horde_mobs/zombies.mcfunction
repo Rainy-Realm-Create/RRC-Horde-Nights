@@ -75,21 +75,25 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombifie
 # extreme health baby
 
 #======Drowned======#
+execute as @e[type=minecraft:drowned,tag=h-nigh.mob,tag=!h-nigh.not_drowned_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/zombies/drowned_horse
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/drowned/blood"}
 #=====Baby=====#
 
 
 #======Husk======#
+execute as @e[type=minecraft:husk,tag=h-nigh.mob,tag=!h-nigh.not_husk_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/zombies/husk_horse
 execute as @e[type=minecraft:husk,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/husk/blood"}
 #=====Baby=====#
 
 
 #=====Zombie=====#
+execute as @e[type=minecraft:zombie,tag=h-nigh.mob,tag=!h-nigh.not_zombie_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/zombies/zombie_horse
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombie/blood"}
 #=====Baby=====#
 
 
 #=Zombie Villager#
+execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob,tag=!h-nigh.not_zombie_villager_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/zombies/zombie_villager_horse
 #=====Baby=====#
 
 

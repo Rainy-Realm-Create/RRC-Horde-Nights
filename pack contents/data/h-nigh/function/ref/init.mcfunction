@@ -32,7 +32,7 @@ execute unless score running h-nigh.config = running h-nigh.config run scoreboar
 execute unless score difficulty h-nigh.config = difficulty h-nigh.config run scoreboard players set difficulty h-nigh.config -1
 execute unless score interval h-nigh.config = interval h-nigh.config run scoreboard players set interval h-nigh.config -1
 execute unless score time_start h-nigh.config = time_start h-nigh.config run scoreboard players set time_start h-nigh.config 12541
-execute unless score time_end h-nigh.config = time_end h-nigh.config run scoreboard players set time_end h-nigh.config 23999
+execute unless score time_end h-nigh.config = time_end h-nigh.config run scoreboard players set time_end h-nigh.config 1
 
 execute unless score #festive_moon h-nigh.config = #festive_moon h-nigh.config run scoreboard players set #festive_moon h-nigh.config 1
 scoreboard players add #natural_bunk h-nigh.config 0

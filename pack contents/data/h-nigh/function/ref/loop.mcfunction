@@ -7,6 +7,9 @@
 
 scoreboard players add #sec_loop h-nigh.status 1
 execute if score #sec_loop h-nigh.status matches 20.. run function h-nigh:ref/sec_loop
+scoreboard players add #sleep_count_reduction h-nigh.status 1
+execute if score #sleep_count_reduction h-nigh.status matches 103.. as @a unless score @s h-nigh.no_sleep_counter matches ..0 run scoreboard players remove @s 1
+execute if score #sleep_count_reduction h-nigh.status matches 103.. run scoreboard players set #sleep_count_reduction h-nigh.status 0
 
 # Get things in order
 execute unless score difficulty h-nigh.config matches 0 run scoreboard players operation #difficulty h-nigh.config = difficulty h-nigh.config
@@ -17,7 +20,7 @@ execute if score interval h-nigh.config matches -1 unless score #interval h-nigh
 
 execute store result score #gametime h-nigh.status run time query daytime
 
-execute if score #gametime h-nigh.status matches 0 run scoreboard players add #daycount h-nigh.status 1
+execute if score #gametime h-nigh.status matches 1 run scoreboard players add #daycount h-nigh.status 1
 
 execute if score #daycount h-nigh.status > #interval h-nigh.config run function h-nigh:ref/day_correction
 function h-nigh:ref/tick/score_correction
@@ -28,7 +31,7 @@ execute unless score #active h-nigh.status matches 1.. if score #daycount h-nigh
 execute unless score #active h-nigh.status matches 1.. if score #used h-nigh.ritual matches 1..3 run scoreboard players set #active h-nigh.status 1
 execute if score #active h-nigh.status matches 1 if score #gametime h-nigh.status = time_start h-nigh.config run scoreboard players set #active h-nigh.status 2
 
-execute if score #active h-nigh.status matches 2.. unless score #gametime h-nigh.status >= time_start h-nigh.config run scoreboard players set #active h-nigh.status 1
+execute if score #active h-nigh.status matches 2.. unless score #gametime h-nigh.status >= time_start h-nigh.config if score #gametime h-nigh.status matches 2.. run scoreboard players set #active h-nigh.status 1
 execute if score #active h-nigh.status matches 2 store result score #event h-nigh.status run function h-nigh:ref/tick/decide_event_type
 execute if score #active h-nigh.status matches 2 if score #event h-nigh.status matches 0.. run scoreboard players set #active h-nigh.status 3
 
