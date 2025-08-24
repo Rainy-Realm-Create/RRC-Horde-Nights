@@ -5,7 +5,7 @@
 
 #========All========#
 #==Generic==#
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] run data modify entity @s CanBreakDoors set value 1b
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:spawn_reinforcements base set 1
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.4 add_multiplied_base
 
@@ -75,17 +75,17 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombifie
 # extreme health baby
 
 #======Drowned======#
-execute as @e[type=minecraft:drowned,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/drowned/bunk_blood"}
+execute as @e[type=minecraft:drowned,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/drowned/bunk_blood"}
 #=====Baby=====#
 
 
 #======Husk======#
-execute as @e[type=minecraft:husk,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/husk/bunk_blood"}
+execute as @e[type=minecraft:husk,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/husk/bunk_blood"}
 #=====Baby=====#
 
 
 #=====Zombie=====#
-execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombie/bunk_blood"}
+execute as @e[type=minecraft:zombie,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombie/bunk_blood"}
 #=====Baby=====#
 
 
@@ -94,10 +94,10 @@ execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data merge entity @s {De
 
 
 #=====Zoglin=====#
-execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zoglin/bunk_blood"}
+execute as @e[type=minecraft:zoglin,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/zoglin/bunk_blood"}
 #=====Baby=====#
 
 
 #Zombified Piglin#
-execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombified_piglin/bunk_blood"}
+execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/zombified_piglin/bunk_blood"}
 #=====Baby=====#

@@ -27,7 +27,6 @@ execute as @a if score @s h-nigh.festive_moon_survive_stat matches 33.. run adva
 
 execute as @a run scoreboard players set @s h-nigh.alive 0
 worldborder warning distance 10
-tp @e[tag=h-nigh.converted] ~ ~-300 ~
 execute as @a run scoreboard players set @s h-nigh.time_since_slay 0
 execute as @a run scoreboard players set @s h-nigh.deaths 0
 execute as @a run scoreboard players set @s h-nigh.no_sleep_counter 0

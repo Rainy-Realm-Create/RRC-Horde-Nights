@@ -33,7 +33,7 @@ execute unless score difficulty h-nigh.config = difficulty h-nigh.config run sco
 execute unless score interval h-nigh.config = interval h-nigh.config run scoreboard players set interval h-nigh.config -1
 execute unless score time_start h-nigh.config = time_start h-nigh.config run scoreboard players set time_start h-nigh.config 12541
 execute unless score time_end h-nigh.config = time_end h-nigh.config run scoreboard players set time_end h-nigh.config 1
-execute unless score h-nigh rrc.init matches ..11 run scoreboard players set time_end h-nigh.config 1
+execute unless score h-nigh rrc.init matches ..12 run scoreboard players set time_end h-nigh.config 1
 
 execute unless score #festive_moon h-nigh.config = #festive_moon h-nigh.config run scoreboard players set #festive_moon h-nigh.config 1
 scoreboard players add #natural_bunk h-nigh.config 0
@@ -173,5 +173,5 @@ scoreboard objectives add h-nigh.zomb_pigl_slay_stat dummy {translate:'rrc.h-nig
 
 # Finish up
 execute unless score #active h-nigh.status = matches 1.. run function h-nigh:config/default_days
-scoreboard players set h-nigh rrc.init 12
+scoreboard players set h-nigh rrc.init 13
 schedule function h-nigh:ref/tellraw/init 1s

@@ -6,7 +6,7 @@
 #======Bogged======#
 #==Generic==#
 execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
-execute as @e[type=minecraft:bogged,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/bogged/blood"}
+execute as @e[type=minecraft:bogged,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/bogged/blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:bogged,tag=h-nigh.mob] power 1
@@ -35,7 +35,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob,tag=!h-nigh.not_skeleton_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/skeletons/skeleton_horse
 #==Generic==#
 execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 1 true
-execute as @e[type=minecraft:skeleton,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/skeleton/blood"}
+execute as @e[type=minecraft:skeleton,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/skeleton/blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:skeleton,tag=h-nigh.mob] power 1
@@ -64,7 +64,7 @@ execute if score #difficulty h-nigh.config matches 4 run enchant @e[type=minecra
 execute as @e[type=minecraft:stray,tag=h-nigh.mob,tag=!h-nigh.not_stray_horse,sort=random,scores={h-nigh.y=60..}] run function h-nigh:ref/tick/events/blood_moon/horde_mobs/skeletons/stray_horse
 #==Generic==#
 execute as @e[type=minecraft:stray,tag=h-nigh.mob] run effect give @s minecraft:infested infinite 2 true
-execute as @e[type=minecraft:stray,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/stray/blood"}
+execute as @e[type=minecraft:stray,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/stray/blood"}
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 run enchant @e[type=minecraft:stray,tag=h-nigh.mob] power 1

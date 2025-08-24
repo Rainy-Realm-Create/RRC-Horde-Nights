@@ -6,7 +6,7 @@
 # All Recruited Mobs
 execute as @e[type=#h-nigh:recruited,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob] run attribute @s minecraft:follow_range base set 400
-execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob] run data merge entity @s {CanPickUpLoot:0b}
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {CanPickUpLoot:0b}
 
 execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:health_normal_only,tag=h-nigh.mob] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.2 add_multiplied_base
 # easy health normal
@@ -20,7 +20,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:health_n
 execute as @e[type=#h-nigh:health_normal_only,tag=h-nigh.mob] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.2 add_multiplied_base
 
 
-execute as @e[type=minecraft:slime,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/slime/blood"}
+execute as @e[type=minecraft:slime,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/slime/blood"}
 
 
 # Drowned, Husk, Zombie, Zombie Villager, Zombified Hoglin, Zombified Piglin
@@ -38,13 +38,11 @@ function h-nigh:ref/tick/events/blood_moon/horde_mobs/spiders
 #=======Creeper======#
 #==Generic==#
 execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob] run effect give @s minecraft:oozing 2 2 true
-execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob] run data merge entity @s {ExplosionRadius:6b}
+execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {ExplosionRadius:6b}
 execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.2 add_multiplied_base
-execute as @e[type=minecraft:creeper,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/creeper/blood"}
+execute as @e[type=minecraft:creeper,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/creeper/blood"}
 
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.1 add_multiplied_base
-# easy speed normal
 execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.2 add_multiplied_base
 # easy health normal
 
@@ -53,13 +51,11 @@ execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:creepers
 # normal health normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.2 add_multiplied_base
-# hard speed normal
 execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.6 add_multiplied_base
 # hard health normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.3 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.1 add_multiplied_base
 # extreme speed normal
 execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.8 add_multiplied_base
 # extreme health normal
@@ -69,8 +65,6 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers
 execute as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.4 add_multiplied_base
 
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.2 add_multiplied_base
-# easy speed enhanced
 execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.4 add_multiplied_base
 # easy health enhanced
 
@@ -79,13 +73,11 @@ execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:creepers
 # normal health enhanced
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.4 add_multiplied_base
-# hard speed enhanced
 execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 2.2 add_multiplied_base
 # hard health enhanced
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.2 add_multiplied_base
 # extreme speed enhanced
 execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 2.6 add_multiplied_base
 # extreme health enhanced
@@ -94,12 +86,10 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:creepers
 #==Generic==#
 execute as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run effect give @s minecraft:oozing 2 1 true
 execute as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:follow_range base set 400
-data merge entity @s[type=minecraft:creeper,tag=h-nigh.baby_mob] {ExplosionRadius:3b}
+data merge entity @s[type=minecraft:creeper,tag=h-nigh.baby_mob,tag=!h-nigh.regened] {ExplosionRadius:3b}
 execute as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:scale modifier add h-nigh:horde_scale 0.1 add_multiplied_base
 
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1..2 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.05 add_multiplied_base
-# easy speed baby
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.1 add_multiplied_base
 # easy health baby
 
@@ -108,20 +98,18 @@ execute if score #difficulty h-nigh.config matches 2 as @e[type=minecraft:creepe
 # normal health baby
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.1 add_multiplied_base
-# hard speed baby
 execute if score #difficulty h-nigh.config matches 3 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.3 add_multiplied_base
 # hard health baby
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.15 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.05 add_multiplied_base
 # extreme speed baby
 execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:creeper,tag=h-nigh.baby_mob] run attribute @s minecraft:max_health modifier add h-nigh:horde_health 1.4 add_multiplied_base
 # extreme health baby
 
 
 #=======Enderman======#
-execute as @e[type=minecraft:enderman,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/enderman/blood"}
+execute as @e[type=minecraft:enderman,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/enderman/blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:enderman,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.4 add_multiplied_base
 # easy strength normal
@@ -146,7 +134,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:enderm
 
 
 #=======Phantom======#
-execute as @e[type=minecraft:phantom,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/phantom/blood"}
+execute as @e[type=minecraft:phantom,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/phantom/blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=minecraft:phantom,tag=h-nigh.mob] run attribute @s minecraft:attack_damage modifier add h-nigh:horde_strength 1.2 add_multiplied_base
 # easy strength normal
@@ -165,7 +153,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:phanto
 
 
 #=======Witch======#
-execute as @e[type=minecraft:witch,tag=h-nigh.mob] run data merge entity @s {DeathLootTable:"h-nigh:entities/witch/blood"}
+execute as @e[type=minecraft:witch,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/witch/blood"}
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1..2 as @e[type=minecraft:witch,tag=h-nigh.mob] run attribute @s minecraft:movement_speed modifier add h-nigh:horde_swift 0.1 add_multiplied_base
 # easy speed normal
