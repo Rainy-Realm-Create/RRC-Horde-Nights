@@ -3,7 +3,7 @@
 #==Liscense for use per Modrinth TOS==#
 #================NOTE=================#
 
-execute store result score skeleton_horse h-nigh.random run random roll 1..64
+execute store result score skeleton_horse h-nigh.random run random value 1..64
 execute unless score skeleton_horse h-nigh.random matches 64 run tag @s add h-nigh.not_skeleton_horse
 execute if score skeleton_horse h-nigh.random matches 64 at @s run summon skeleton_horse ~ ~ ~ {PersistenceRequired:0b,Health:60f,Tame:1b,Temper:100,SkeletonTrap:0b,Tags:["smithed.entity","smithed.strict","h-nigh.skeleton_horse"],Passengers:[{id:"minecraft:skeleton",Tags:["h-nigh.mob","h-nigh.not_skeleton_horse"]}],active_effects:[{id:"minecraft:infested",amplifier:3,duration:24000,show_particles:1b},{id:"minecraft:speed",amplifier:2,duration:24000,show_particles:1b}],attributes:[{id:"minecraft:generic.armor",base:10},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.max_health",base:60},{id:"minecraft:generic.safe_fall_distance",base:6},{id:"minecraft:generic.scale",base:1.1},{id:"minecraft:generic.step_height",base:2}],SaddleItem:{id:"minecraft:saddle",Count:1b}}
 execute if score skeleton_horse h-nigh.random matches 64 run tp @s ~ ~-999 ~

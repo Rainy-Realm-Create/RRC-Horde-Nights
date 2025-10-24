@@ -5,6 +5,8 @@
 
 #==============Mobs===============#
 execute as @e[tag=h-nigh.eligible,tag=!h-nigh.mob,tag=!h-nigh.ignore] run tag @s add h-nigh.mob
+#get y level of horde mobs
+execute as @e[type=#h-nigh:recruited] store result score @s h-nigh.y run data get entity @s Pos[1]
 
 #======Recruit=======#
 function h-nigh:ref/tick/events/festive_moon/horde_mobs

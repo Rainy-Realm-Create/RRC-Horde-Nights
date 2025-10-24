@@ -37,6 +37,7 @@ Experimental Features **DO NOT**:
 - Fixed skeleton & zombie horde size.
 - Fixed zombie horses not being implimented into bunk blood moons properly.
 - Fixed zombie horses not being implimented into super moons properly.
+- Fixed implimented zombie & skeleton horses not spawning at all.
 
 ### Known Issues
 
