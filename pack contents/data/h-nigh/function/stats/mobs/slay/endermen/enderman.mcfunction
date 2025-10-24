@@ -15,19 +15,118 @@ execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status m
 execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 run advancement grant @s only h-nigh:super/super_hunt
 execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 5 run advancement grant @s only h-nigh:festive/anti-christ
 
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. run xp add @s 54
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. run xp add @s 54
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. run xp add @s 54
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. run xp add @s 54
 
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. run xp add @s 66
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. run xp add @s 66
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. run xp add @s 66
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. run xp add @s 66
 
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. run xp add @s 78
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. run xp add @s 78
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. run xp add @s 78
-execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. run xp add @s 80
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 10
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 10
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 12
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 12
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 1 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 14
+
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 12
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 12
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 14
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 14
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 2 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 16
+
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 14
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 1.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 14
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 2.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 16
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 16
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 3.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 16
+
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/5] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/4] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/3] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/2] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. unless entity @s[predicate=h-nigh:enchantment/bunk_knowledge_of_the_horde/1] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/1] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/2] run xp add @s 18
+execute unless score @s h-nigh.alive matches 1.. if score #event h-nigh.status matches 3 if score #difficulty h-nigh.status matches 4.. if entity @s[predicate=h-nigh:enchantment/knowledge_of_the_horde/3] run xp add @s 18
+
+
 
 advancement revoke @s only h-nigh:stats/mobs/slay/endermen/enderman

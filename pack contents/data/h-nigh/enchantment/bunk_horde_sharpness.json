@@ -37,7 +37,7 @@
   },
   "primary_items": "#minecraft:enchantable/sword",
   "slots": [
-    "offhand"
+    "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/weapon",
   "weight": 1
