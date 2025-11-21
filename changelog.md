@@ -41,7 +41,10 @@ Experimental Features **DO NOT**:
 
 ### Known Issues
 
-- 
+- Skeletons on Skeleton Horses do not spawn with a weapon.
+- Skeletons do not seem to get enchanted bows in 1.21.9/10.
+- Skeletons do not seem to get infested effect in 1.21.9/10.
+- Spiders do not seem to get weaving effect in 1.21.9/10.
 
 ## Datapack Conventions Compliance
 
