@@ -1,4 +1,4 @@
-# Horde Nights v1.3.11
+# Horde Nights v1.3.12
 
 ## Notes
 
@@ -14,30 +14,20 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support 1.21.9/10
+- Updated to support 
 
 ### Additions
 
-- Added two new enchantments:
-  - Knowledge of The Horde - Gain additional EXP from slaying Horde Mobs.
-  - [Curse] Bunk Knowledge of The Horde - Gain less EXP from slaying Horde Mobs.
-  - These enchantments are obtained through the enchanting table, villagers, and loot drops, unlike the Horde Damage enchantments.
-  - The curse is meant to be insanely common. This is not a bug. This is intended to draw out progression of Horde Nights mastery.
+- 
 
 ### Changes
 
 - Init v
-- Bunk Horde Damage Enchantments no longer function in the offhand, only the mainhand.
-- Rebalanced EXP gain from Horde Mobs slightly. Some mobs now gain drastically more in some cases by default.
-  - See the two new enchantments above.
+- 
 
 ### Fixes
 
-- Fixed skeleton & zombie horses not being able to be ridden.
-- Fixed skeleton & zombie horde size.
-- Fixed zombie horses not being implimented into bunk blood moons properly.
-- Fixed zombie horses not being implimented into super moons properly.
-- Fixed implimented zombie & skeleton horses not spawning at all.
+- Optimized a few commands to help reduce MSPT on bigger servers.
 
 ### Known Issues
 

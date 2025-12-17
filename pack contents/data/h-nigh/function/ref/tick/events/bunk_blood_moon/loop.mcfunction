@@ -6,7 +6,7 @@
 #==============Mobs===============#
 execute as @e[tag=h-nigh.eligible,tag=!h-nigh.mob,tag=!h-nigh.ignore] run tag @s add h-nigh.mob
 #get y level of horde mobs
-execute as @e[type=#h-nigh:recruited] store result score @s h-nigh.y run data get entity @s Pos[1]
+execute as @e[type=#h-nigh:recruited,tag=!h-nigh.regened] store result score @s h-nigh.y run data get entity @s Pos[1]
 
 #======Spawning======#
 execute unless score phantom_spawning h-nigh.config matches 1 run function h-nigh:ref/tick/events/bunk_blood_moon/mob_spawning

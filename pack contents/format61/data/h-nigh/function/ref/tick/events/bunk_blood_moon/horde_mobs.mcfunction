@@ -186,5 +186,6 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:creaki
 
 
 
-execute as @e[tag=h-nigh.mob,tag=!h-nigh.regened] run data modify entity @s Health set value 2147483647
-execute as @e[tag=h-nigh.mob,tag=!h-nigh.regened] run tag @s add h-nigh.regened
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run data modify entity @s Health set value 2147483647
+execute as @e[type=#h-nigh:recruited,tag=!h-nigh.regened] run scoreboard players reset @s h-nigh.y
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run tag @s add h-nigh.regened
