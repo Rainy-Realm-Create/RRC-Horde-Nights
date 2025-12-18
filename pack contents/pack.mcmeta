@@ -3,28 +3,28 @@
   "pack": {
     "pack_format": 48,
     "min_format": 48,
-    "max_format": 88,
-    "supported_formats": [48,88],
-    "description": "[1.21-1.21.10] Horde Nights; By RRC"
+    "max_format": 94,
+    "supported_formats": [48,94],
+    "description": "[1.21-1.21.11] Horde Nights; By RRC"
   },
   "overlays": {
     "entries": [
       {
-        "formats": [57,88],
+        "formats": [57,94],
         "min_format": 57,
-        "max_format": 88,
+        "max_format": 94,
         "directory": "format57"
       },
       {
-        "formats": [61,88],
+        "formats": [61,94],
         "min_format": 61,
-        "max_format": 88,
+        "max_format": 94,
         "directory": "format61"
       },
       {
-        "formats": [71,88],
+        "formats": [71,94],
         "min_format": 71,
-        "max_format": 88,
+        "max_format": 94,
         "directory": "format71"
       }
     ]

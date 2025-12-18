@@ -3,7 +3,7 @@
 ## Notes
 
 This version is primarily developed for 1.21/1.21.1, and changes are ported upwards. This means despite estensive playtesting, there is still a higher chance of bugs in 1.21.2+. Please report any you find!
-Horde Nights is not actively recieving new content at this time. Fixes and Ports will be pushed as needed. Otherwise, see you for v2.0.0 in 2026!
+Horde Nights v2.0.0 is actively being developed. Monitor on the github!
 
 ## Experimental Features
 
@@ -14,7 +14,7 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support 
+- Updated to support 1.21.11
 
 ### Additions
 
