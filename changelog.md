@@ -1,4 +1,4 @@
-# Horde Nights v1.3.12
+# Horde Nights v1.3.13
 
 ## Notes
 
@@ -14,7 +14,7 @@ Experimental Features **DO NOT**:
 
 ### Updates
 
-- Updated to support 1.21.11
+- Updated to support 
 
 ### Additions
 
@@ -23,18 +23,24 @@ Experimental Features **DO NOT**:
 ### Changes
 
 - Init v
-- 
+- Made Zombies immune to fire during hostile lunar events.
+  - This should reduce how many spawn in your world as reinforcements dur to fire damage ticks.
+- Zombies can no longer break doors or spawn reinforcements during Festive Moons.
 
 ### Fixes
 
-- Optimized a few commands to help reduce MSPT on bigger servers.
+- Fixed WAYYYYY too many zombies spawning during Bunk Blood Moons [1.21.2+]
+- Fixed WAY too many zombies spawning during Super Moons [1.21.2+]
+- Fixed Datapack Validation Error in 1.21.11
+  - Caused by removal of "#minecraft:enchantable/swords" item tag.
 
 ### Known Issues
 
 - Skeletons on Skeleton Horses do not spawn with a weapon.
-- Skeletons do not seem to get enchanted bows in 1.21.9/10.
-- Skeletons do not seem to get infested effect in 1.21.9/10.
-- Spiders do not seem to get weaving effect in 1.21.9/10.
+- Skeletons do not seem to get enchanted bows in 1.21.9+.
+- Skeletons do not seem to get infested effect in 1.21.9+.
+- Spiders do not seem to get weaving effect in 1.21.9+.
+- NaturallY Spawning Zombie Horses are not considered for gameplay. [1.21.11]
 
 ## Datapack Conventions Compliance
 

@@ -44,8 +44,9 @@ Horde Nights has integrations with several other packs. Please bear in mind some
   - Not using this integration creates a cosmetic error in log, ignore it.
 - [Time Lib](https://modrinth.com/datapack/timelib/versions) Integration for 1.21+
   - This integration will allow the automatic enabling and disabling of:
-    - Festive Moons
-    - Natural Bunk Events
+    - Festive Moons [Dec 1st to Dec 31st]
+    - Natural Bunk Events [April 1st]
   - This integration can be toggled in the "Advanced" section of the config
+  - TimeLib has been discontinued for 1.21.6+, requiring manual toggles or user supplimented automation to toggle these things appropriately.
 
 Only these projects are guaranteed to work with this pack. While we do our best to maintain decent compatibility standards, things may interact weirdly. Please report any incompatibilities or suggest any ideas for official integration improvements in our discord!

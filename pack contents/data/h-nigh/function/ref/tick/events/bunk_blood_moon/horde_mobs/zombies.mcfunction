@@ -5,9 +5,10 @@
 
 #========All========#
 #==Generic==#
+effect give @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] minecraft:fire_resistance infinite 1 true
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.4 add_multiplied_base
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.4 add_multiplied_base
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
@@ -41,8 +42,8 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombifie
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.13
-execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.2 add_multiplied_base
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.13
+execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.2 add_multiplied_base
 
 #====Easy===#
 execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.2 add_multiplied_base
