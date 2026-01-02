@@ -8,8 +8,9 @@
 execute as @e[type=minecraft:drowned,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
+effect give @e[type=minecraft:drowned,tag=h-nigh.mob] minecraft:fire_resistance infinite 1 true
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:drowned,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
+execute as @e[type=minecraft:drowned,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -35,7 +36,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:drowne
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:drowned,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=minecraft:drowned,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:drowned,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.1 add_multiplied_base
 
@@ -64,8 +65,9 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:drowne
 execute as @e[type=minecraft:husk,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
+effect give @e[type=minecraft:husk,tag=h-nigh.mob] minecraft:fire_resistance infinite 1 true
 execute as @e[type=minecraft:husk,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:husk,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
+execute as @e[type=minecraft:husk,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:husk,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:husk,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -91,7 +93,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:husk,t
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:husk,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=minecraft:husk,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=minecraft:husk,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:husk,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.1 add_multiplied_base
 
@@ -120,8 +122,9 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:husk,t
 execute as @e[type=minecraft:zombie,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
+effect give @e[type=minecraft:zombie,tag=h-nigh.mob] minecraft:fire_resistance infinite 1 true
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:zombie,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
+execute as @e[type=minecraft:zombie,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -147,7 +150,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zombie
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:zombie,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=minecraft:zombie,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:zombie,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.1 add_multiplied_base
 
@@ -176,8 +179,9 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zombie
 execute as @e[type=minecraft:zombie_villager,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
+effect give @e[type=minecraft:zombie_villager,tag=h-nigh.mob] minecraft:fire_resistance infinite 1 true
 execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
+execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -203,7 +207,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zombie
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:zombie_villager,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.1 add_multiplied_base
 
@@ -232,8 +236,6 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zombie
 execute as @e[type=minecraft:zoglin,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
-execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
 execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:zoglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -259,7 +261,6 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zoglin
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:zoglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:zoglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:zoglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.1 add_multiplied_base
 
@@ -288,8 +289,9 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zoglin
 execute as @e[type=minecraft:zombified_piglin,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
 
 #==Generic==#
+effect give @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] minecraft:fire_resistance infinite 1 true
 execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] run data modify entity @s CanBreakDoors set value 1b
-execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 1
+execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
 execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 400
 execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
@@ -315,7 +317,7 @@ execute if score #difficulty h-nigh.config matches 4 as @e[type=minecraft:zombif
 
 #=====Baby=====#
 #==Generic==#
-execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.5
+execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:zombie.spawn_reinforcements base set 0.25
 execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.follow_range base set 200
 execute as @e[type=minecraft:zombified_piglin,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add 15213119-0002-0002-0002-000000003943 h-nigh.scale 0.2 add_multiplied_base
 
