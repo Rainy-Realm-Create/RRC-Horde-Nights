@@ -47,6 +47,11 @@ execute unless score blood_ritual h-nigh.config matches 1 as @a at @s as @e[type
 execute unless score blood_ritual h-nigh.config matches 1 if score #active h-nigh.status matches 1.. as @a at @s as @e[type=item,predicate=h-nigh:item/blood_diamond,nbt={Item:{count:1}},distance=..5] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/boot/reject/blood_diamond
 execute unless score blood_ritual h-nigh.config matches 1 unless score #active h-nigh.status matches 1.. as @a at @s as @e[type=item,predicate=h-nigh:item/blood_diamond,nbt={Item:{count:1}},distance=..5] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/blood
 
+execute if score blood_ritual h-nigh.config matches 1 as @a at @s as @e[type=item,predicate=h-nigh:item/primed_emerald,nbt={Item:{count:1}},distance=..5] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/boot/disabled/primed_emerald
+execute unless score blood_ritual h-nigh.config matches 1 as @a at @s as @e[type=item,predicate=h-nigh:item/primed_emerald,distance=..5] unless entity @s[nbt={Item:{count:1}}] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/boot/overload/primed_emerald
+execute unless score blood_ritual h-nigh.config matches 1 if score #active h-nigh.status matches 1.. as @a at @s as @e[type=item,predicate=h-nigh:item/primed_emerald,nbt={Item:{count:1}},distance=..5] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/boot/reject/primed_emerald
+execute unless score blood_ritual h-nigh.config matches 1 unless score #active h-nigh.status matches 1.. as @a at @s as @e[type=item,predicate=h-nigh:item/primed_emerald,nbt={Item:{count:1}},distance=..5] at @s if block ~ ~ ~ minecraft:soul_campfire run function h-nigh:ref/sec_loop/ritual/next_event
+
 
 #==============Time==============#
 execute unless score #time_lib h-nigh.config matches 1 run function h-nigh:ref/sec_loop/time
