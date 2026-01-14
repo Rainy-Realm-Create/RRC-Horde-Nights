@@ -139,6 +139,32 @@
           }
         }
       }
+    },
+    "h-nigh:informational_pact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/informational_pact": true
+            }
+          }
+        }
+      }
+    },
+    "h-nigh:prime_two": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "h-nigh:ritual/prime_two": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {
