@@ -3,7 +3,11 @@
     "icon": {
       "id": "minecraft:dragon_breath",
       "components": {
-        "minecraft:custom_model_data": 6548001
+        "minecraft:custom_model_data": {
+          "floats": [
+            6548001
+          ]
+        }
       }
     },
     "title": {
@@ -15,9 +19,9 @@
       "underlined": false,
       "strikethrough": false,
       "obfuscated": false,
-      "clickEvent": {
+      "click_event": {
         "action": "open_url",
-        "value": "https://modrinth.com/organization/rainy-realm-creations"
+        "url": "https://modrinth.com/organization/rainy-realm-creations"
       }
     },
     "description": {
@@ -29,7 +33,7 @@
       "strikethrough": false,
       "obfuscated": false
     },
-    "background": "rrc:textures/gui/advancements/backgrounds/rrc.png",
+    "background": "rrc:gui/advancements/backgrounds/rrc",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

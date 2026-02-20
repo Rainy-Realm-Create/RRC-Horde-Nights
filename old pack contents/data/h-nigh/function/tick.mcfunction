@@ -4,4 +4,4 @@
 #================NOTE=================#
 
 # this function exists purely for uninstall mechanic functionality. As soon as the pack is uninstalled, this check will fail, stopping ALL ticking functions
-execute if score #installed h-nigh.status matches 1 run function h-nigh:reference/loop
+execute if score running h-nigh.config matches 1 run function h-nigh:ref/loop
