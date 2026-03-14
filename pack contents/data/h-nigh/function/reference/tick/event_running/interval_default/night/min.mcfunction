@@ -3,4 +3,4 @@
 #==Liscense for use per Modrinth TOS==#
 #================NOTE=================#
 
-tellraw @a {text:'Horde Nights Successfully Initialized - Init v13',color:'dark_purple'}
+scoreboard players set interval_night_min h-nigh.status 30
