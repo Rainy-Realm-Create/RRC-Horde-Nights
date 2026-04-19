@@ -31,8 +31,8 @@ scoreboard objectives add h-nigh.vfx_random dummy
 scoreboard objectives add h-nigh.y dummy
 
 # Config
-execute unless data storage rrc_config:h-nigh interval{day_min} run data modify storage rrc_config:h-nigh interval.day_min set value 30
-execute unless data storage rrc_config:h-nigh interval{day_max} run data modify storage rrc_config:h-nigh interval.day_max set value 120
+execute unless data storage rrc_config:h-nigh interval.day_min run data modify storage rrc_config:h-nigh interval.day_min set value 30
+execute unless data storage rrc_config:h-nigh interval.day_max run data modify storage rrc_config:h-nigh interval.day_max set value 120
 
 
 
