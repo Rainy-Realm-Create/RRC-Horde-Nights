@@ -9,6 +9,18 @@
           "name": "minecraft:fishing_rod",
           "functions": [
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 6,
+                    "lure_max": 6,
+                    "luck_of_the_sea_max": 6
+                  }
+                }
+              }
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -20,14 +32,14 @@
                     "max": 5
                   },
                   "operation": "add_value",
-                  "slot": "mainhand"
+                  "slot": "hand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_speed",
                   "id": "h-nigh:horde_rod_speed",
                   "amount": 1,
                   "operation": "add_value",
-                  "slot": "mainhand"
+                  "slot": "hand"
                 }
               ],
               "replace": false
@@ -51,8 +63,8 @@
                   "color": "dark_gray"
                 },
                 {
-                  "translate": "rrc.item.description.milestone",
-                  "fallback": "Milestone Celebration",
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
                   "color": "#f980b9"
                 },
                 {
@@ -91,12 +103,672 @@
                 "minecraft:lure": {
                   "type": "minecraft:uniform",
                   "min": 3,
-                  "max": 6
+                  "max": 4
                 },
                 "minecraft:luck_of_the_sea": {
                   "type": "minecraft:uniform",
-                  "min": 2,
-                  "max": 5
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 5,
+                    "lure_max": 6,
+                    "luck_of_the_sea_max": 6
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 6,
+                    "lure_max": 5,
+                    "luck_of_the_sea_max": 6
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 6,
+                    "lure_max": 6,
+                    "luck_of_the_sea_max": 5
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 5,
+                    "lure_max": 5,
+                    "luck_of_the_sea_max": 6
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 5,
+                    "lure_max": 6,
+                    "luck_of_the_sea_max": 5
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "fish-oh": {
+                    "unbreaking_max": 6,
+                    "lure_max": 5,
+                    "luck_of_the_sea_max": 5
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "id": "h-nigh:horde_rod_damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "hand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "id": "h-nigh:horde_rod_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.blood.lore",
+                  "fallback": "Bloody",
+                  "color": "#fb0000"
+                },
+                {
+                  "translate": "h-nigh.item.fishing_rod.horde_rod.lore",
+                  "fallback": "Sturdy enough for the elusive Golden Salmon.",
+                  "color": "#dcce27"
+                },
+                " ",
+                {
+                  "text": "Community Item - gillsyreef",
+                  "color": "dark_gray"
+                },
+                {
+                  "translate": "rrc.item.description.milestone_100k",
+                  "fallback": "Milestone Celebration - 100k",
+                  "color": "#f980b9"
+                },
+                {
+                  "translate": "rrc.item.description.integration",
+                  "fallback": "Integration Item",
+                  "color": "#eccf2d"
+                },
+                " ",
+                {
+                  "translate": "rrc.generic.identifier.h-nigh.title",
+                  "fallback": "Horde Nights",
+                  "color": "dark_red",
+                  "bold": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "h-nigh.item.fishing_rod.horde_rod.name",
+                "fallback": "Horde Rod",
+                "color": "#ec7600",
+                "bold": true
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:lure": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:luck_of_the_sea": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
                 }
               }
             }

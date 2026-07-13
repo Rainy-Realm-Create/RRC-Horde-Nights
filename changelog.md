@@ -1,4 +1,4 @@
-# Horde Nights v1.3.14
+# Horde Nights v1.3.15
 
 ## Notes
 
@@ -18,21 +18,19 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- Added a "Primed Emerald" crafted with 8 redstone & 1 emerald.
-  - This item can be used on a soul campfire to show how long until the next natural lunar event.
-  - 2 related advancements have been added to help guide you.
-  - The recipe book entry is granted when you craft a primed diamond.
-- Added a custom bow to Skeleton Horses, default drop rate.
-  - Adds 3 extra attack damage & easily cuts through cobwebs like swords.
+- 
 
 ### Changes
 
 - Init v
-- 
+- Overhauled the "Horde Rod"
+  - Blood Variant now rolls between level 3-4 on enchantments, has a max of level 5-6 when using [Re-Fished]()
+  - Super Variant now rolls between level 4-5 on enchantments, has a max of level 6-7 when using [Re-Fished](), also now rolls a low chance for mending
+  - Festive Variant now rolls between level 5-6 on enchantments, has a max level of 7-8 when using [Re-Fished](), also now rolls a 50% chance for mending
 
 ### Fixes
 
-- Fixed Skeletons on Skeleton Horses not spawning with a weapon.
+- 
 
 ### Known Issues
 
