@@ -27,6 +27,7 @@ Experimental Features **DO NOT**:
   - Blood Variant now rolls between level 3-4 on enchantments, has a max of level 5-6 when using [Re-Fished]()
   - Super Variant now rolls between level 4-5 on enchantments, has a max of level 6-7 when using [Re-Fished](), also now rolls a low chance for mending
   - Festive Variant now rolls between level 5-6 on enchantments, has a max level of 7-8 when using [Re-Fished](), also now rolls a 50% chance for mending
+  - Slight cosmetic changes. Old rod drops are considered legacy items and now not considered in balancing for future updates.
 
 ### Fixes
 
