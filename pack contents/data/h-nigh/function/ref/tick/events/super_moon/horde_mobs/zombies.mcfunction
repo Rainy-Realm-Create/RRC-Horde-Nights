@@ -11,33 +11,33 @@ execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless 
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.5 add_multiplied_base
 
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
-execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
 # easy speed normal
-execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.2 add_multiplied_base
 # easy health normal
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # normal strength normal
-execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.4 add_multiplied_base
 # normal health normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
 # hard strength normal
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.7 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.7 add_multiplied_base
 # hard speed normal
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.6 add_multiplied_base
 # hard health normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # extreme strength normal
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.8 add_multiplied_base
 # extreme speed normal
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.8 add_multiplied_base
 # extreme health normal
 
 #=====Baby=====#
@@ -46,33 +46,33 @@ execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.r
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.scale modifier add h-nigh:horde_scale 0.25 add_multiplied_base
 
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.2 add_multiplied_base
 # easy strength baby
-execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.55 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1..2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.55 add_multiplied_base
 # easy speed baby
-execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.1 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.1 add_multiplied_base
 # easy health baby
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # normal strength baby
-execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.2 add_multiplied_base
 # normal health baby
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.6 add_multiplied_base
 # hard strength baby
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.6 add_multiplied_base
 # hard speed baby
-execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.3 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.3 add_multiplied_base
 # hard health baby
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # extreme strength baby
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.65 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.movement_speed modifier add h-nigh:horde_swift 0.65 add_multiplied_base
 # extreme speed baby
-execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1}] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=#h-nigh:zombified,tag=h-nigh.mob,nbt={IsBaby:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.max_health modifier add h-nigh:horde_health 2.4 add_multiplied_base
 # extreme health baby
 
 #======Drowned======#

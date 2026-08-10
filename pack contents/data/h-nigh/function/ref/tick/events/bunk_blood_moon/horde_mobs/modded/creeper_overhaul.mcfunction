@@ -10,36 +10,36 @@ execute as @e[type=creeperoverhaul:badlands_creeper,tag=h-nigh.mob,tag=!h-nigh.r
 #===Bamboo Creeper===#
 execute as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/bamboo_creeper/bunk_blood"}
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # normal strength normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
 # hard strength normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # extreme strength normal
 
 #===Charged===#
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # easy strength enhanced
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # normal strength enhanced
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
 # hard strength enhanced
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:bamboo_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
 # extreme strength enhanced
 
 
@@ -74,72 +74,72 @@ execute as @e[type=creeperoverhaul:jungle_creeper,tag=h-nigh.mob,tag=!h-nigh.reg
 #==Savannah Creeper==#
 execute as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/savannah_creeper/bunk_blood"}
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # normal strength normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
 # hard strength normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # extreme strength normal
 
 #===Charged===#
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # easy strength enhanced
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # normal strength enhanced
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
 # hard strength enhanced
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:savannah_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
 # extreme strength enhanced
 
 
 #====Snowy Creeper===#
 execute as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {DeathLootTable:"h-nigh:entities/modded/snowy_creeper/bunk_blood"}
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.4 add_multiplied_base
 # easy strength normal
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # normal strength normal
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.2 add_multiplied_base
 # hard strength normal
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,tag=!h-nigh.regened] unless entity @s[nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # extreme strength normal
 
 #===Charged===#
 #====Easy===#
-execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 1 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 2.8 add_multiplied_base
 # easy strength enhanced
 
 #===Normal==#
-execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 2 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 3.6 add_multiplied_base
 # normal strength enhanced
 
 #====Hard===#
-execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 3 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 4.4 add_multiplied_base
 # hard strength enhanced
 
 #==Extreme==#
-execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1}] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
+execute if score #difficulty h-nigh.config matches 4 as @e[type=creeperoverhaul:snowy_creeper,tag=h-nigh.mob,nbt={powered:1},tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage modifier add h-nigh:horde_strength 5.2 add_multiplied_base
 # extreme strength enhanced
 
 

@@ -5,9 +5,9 @@
 
 # All Recruited Mobs
 execute as @e[type=#h-nigh:recruited,tag=!h-nigh.mob,tag=!smithed.entity,tag=!h-nigh.ignore,predicate=h-nigh:overworld] run tag @s add h-nigh.mob
-execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob] run attribute @s minecraft:generic.follow_range base set 0
-execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob] run attribute @s minecraft:generic.attack_damage base set -1000
-execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob] run attribute @s minecraft:generic.max_health base set 1
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run attribute @s minecraft:generic.follow_range base set 0
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run attribute @s minecraft:generic.attack_damage base set -1000
+execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run attribute @s minecraft:generic.max_health base set 1
 execute as @e[type=#h-nigh:recruited,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {CanPickUpLoot:0b}
 execute as @e[type=creeper,tag=h-nigh.mob,tag=!h-nigh.regened] run data merge entity @s {ExplosionRadius:0b}
 execute as @e[type=#h-nigh:zombified,tag=h-nigh.mob,tag=!h-nigh.regened] run data modify entity @s CanBreakDoors set value 0b
