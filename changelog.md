@@ -31,7 +31,7 @@ Experimental Features **DO NOT**:
 
 ### Fixes
 
-- 
+- Optimized a ton more commands to help lag on bigger servers. Compared to the previous version, testing shows at least a 25% improvement.
 
 ### Known Issues
 
