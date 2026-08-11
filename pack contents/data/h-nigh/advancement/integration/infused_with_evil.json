@@ -1,0 +1,62 @@
+{
+  "parent": "fish-oh:ritual/full_mastery",
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "rrc.fish-oh.advancement.ritual.full_mastery.title",
+      "fallback": "Infused with Evil",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrc.fish-oh.advancement.ritual.full_mastery.description",
+      "fallback": "Empower a fully capable Horde Rod(super) to the max possible enchantment levels.",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "blood_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fishing_rod",
+            "components": {
+              "minecraft:enchantments": {
+                "levels": {
+                  "minecraft:luck_of_the_sea": 7,
+                  "minecraft:unbreaking": 7,
+                  "minecraft:lure": 7
+                }
+              },
+              "minecraft:custom_data": {
+                "fish-oh": {
+                  "unbreaking_max": 7,
+                  "lure_max": 7,
+                  "luck_of_the_sea_max": 7,
+                  "horde_rod": 2
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

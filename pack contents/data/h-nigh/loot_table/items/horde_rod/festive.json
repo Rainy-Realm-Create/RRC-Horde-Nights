@@ -15,7 +15,8 @@
                   "fish-oh": {
                     "unbreaking_max": 8,
                     "lure_max": 8,
-                    "luck_of_the_sea_max": 8
+                    "luck_of_the_sea_max": 8,
+                    "horde_rod": 3
                   }
                 }
               }

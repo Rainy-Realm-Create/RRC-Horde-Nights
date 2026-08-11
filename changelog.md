@@ -18,7 +18,8 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- 
+- Added three new advancements, only attainable when using [Re-Fished]()
+  - These advancements will log a console error when [Re-Fished]() isn't installed, it causes no issues, please do not report it.
 
 ### Changes
 
