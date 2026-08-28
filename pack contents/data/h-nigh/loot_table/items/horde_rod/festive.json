@@ -144,7 +144,7 @@
                 "minecraft:lure": {
                   "type": "minecraft:uniform",
                   "min": 4,
-                  "max": 6
+                  "max": 5
                 },
                 "minecraft:luck_of_the_sea": {
                   "type": "minecraft:uniform",

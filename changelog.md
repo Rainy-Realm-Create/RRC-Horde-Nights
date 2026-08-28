@@ -18,16 +18,16 @@ Experimental Features **DO NOT**:
 
 ### Additions
 
-- Added three new advancements, only attainable when using [Re-Fished]()
-  - These advancements will log a console error when [Re-Fished]() isn't installed, it causes no issues, please do not report it.
+- Added three new advancements, only attainable when using [Re-Fished](https://modrinth.com/project/U1B7gGN3)
+  - These advancements will log a console error when [Re-Fished](https://modrinth.com/project/U1B7gGN3) isn't installed, it causes no issues, please do not report it.
 
 ### Changes
 
 - Init v
 - Overhauled the "Horde Rod"
-  - Blood Variant now rolls between level 3-4 on enchantments, has a max of level 5-6 when using [Re-Fished]()
-  - Super Variant now rolls between level 4-5 on enchantments, has a max of level 6-7 when using [Re-Fished](), also now rolls a low chance for mending
-  - Festive Variant now rolls between level 5-6 on enchantments, has a max level of 7-8 when using [Re-Fished](), also now rolls a 50% chance for mending
+  - Blood Variant now rolls between level 3-4 on enchantments, has a max of level 5-6 when using [Re-Fished](https://modrinth.com/project/U1B7gGN3)
+  - Super Variant now rolls between level 4-5 on enchantments, has a max of level 6-7 when using [Re-Fished](https://modrinth.com/project/U1B7gGN3), also now rolls a low chance for mending
+  - Festive Variant now rolls between level 4-6(5 max for lure) on enchantments, has a max level of 7-8 when using [Re-Fished](https://modrinth.com/project/U1B7gGN3), also now rolls a 50% chance for mending
   - Slight cosmetic changes. Old rod drops are considered legacy items and now not considered in balancing for future updates.
 
 ### Fixes
